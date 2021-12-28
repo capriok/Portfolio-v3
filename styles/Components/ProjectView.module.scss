@@ -1,0 +1,48 @@
+@import "../index.scss";
+
+.projectView {
+	width: 100%;
+	padding-top: 50px;
+	hr {
+		height: 2px;
+		background-color: #ebebeb;
+	}
+	h2 {
+		margin-top: 40px;
+	}
+	.process {
+		text-indent: 20px;
+	}
+	ul {
+		padding: 0 30px;
+		li {
+			a {
+				text-decoration: underline;
+				color: steelblue;
+			}
+		}
+	}
+	.links {
+		@include flex;
+		margin: 0 auto;
+		padding: 20px 0 50px;
+		.link {
+			flex: 1;
+			@include flex;
+			flex-direction: column;
+			padding: 10px 0;
+			margin: 0 2px;
+			@include button-fx;
+			border-radius: 5px;
+			background-color: $app-alt-bg;
+			p {
+				@include flex;
+				margin: 0;
+				&:first-child {
+					font-size: 1.5rem;
+					margin-bottom: 10px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,48 @@
+@import "../index.scss";
+
+.projectCiew {
+	.carouselCont {
+		@include flex;
+		flex-direction: column;
+		width: 100%;
+		padding: 0 0 20px;
+		.aliceCarousel {
+			width: 100%;
+			ul {
+				padding: 0;
+				margin-bottom: 20px;
+			}
+			.imageCont {
+				overflow: hidden;
+				user-select: none;
+				@include flex;
+				min-height: 200px;
+				max-width: 400px;
+				margin: 0 auto;
+				@include media("<=550") {
+					margin: 0 5px;
+				}
+				.image {
+					user-select: none;
+					cursor: pointer;
+					user-select: none;
+					width: 100%;
+					max-width: 400px;
+					max-height: 200px;
+					border-radius: 5px;
+					border: 1px solid black;
+				}
+			}
+		}
+		.controls {
+			@include flex;
+			margin-top: 20px;
+			width: 100%;
+			button {
+				@include flex;
+				margin-right: 5px;
+				@include button-fx;
+			}
+		}
+	}
+}

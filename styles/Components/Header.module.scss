@@ -1,0 +1,62 @@
+@import "../index.scss";
+
+.homeHeader {
+	z-index: 10;
+	position: sticky;
+	top: 0;
+	user-select: none;
+	@include flex;
+	width: 100%;
+	min-height: 100px;
+	background-color: transparent;
+	transition: 0.2s;
+	.headCont {
+		@include flex;
+		justify-content: space-between;
+		width: 100%;
+		max-width: $max-width;
+		.title {
+			cursor: pointer;
+			margin: 0;
+			font-size: 2rem;
+		}
+		.navs {
+			span {
+				cursor: pointer;
+				margin-left: 25px;
+			}
+		}
+	}
+	transition: 0.2s;
+	@include media("<=550") {
+		max-height: 75px;
+		min-height: 75px;
+	}
+	@include media("<=800") {
+		.navs {
+			@include flex;
+			justify-content: space-evenly;
+			width: 80%;
+			a {
+				margin-left: unset;
+			}
+		}
+	}
+	@include media("<=1080") {
+		.headCont {
+			padding: 0 10px;
+		}
+	}
+}
+
+.fill {
+	background-color: $app-background;
+}
+.show {
+	transition: 0.3s;
+	opacity: 1;
+}
+.hide {
+	transition: 0.3s;
+	opacity: 0;
+}

@@ -1,0 +1,50 @@
+@import "../../index.scss";
+
+.contactSection {
+	@include flex;
+	flex-direction: column;
+	.contentCont {
+		user-select: none;
+		@include flex;
+		flex-direction: column;
+		padding: 15px;
+		border-radius: 5px;
+		.sectionTitle {
+			margin-left: unset;
+		}
+		h1 {
+			margin-bottom: 20px;
+		}
+		p {
+			margin: 0;
+			margin-bottom: 20px;
+			font-size: 1.2rem;
+			font-weight: 600;
+			transition: 0.2s;
+			span {
+				font-size: 1.1rem;
+				font-weight: 400;
+			}
+			@include media("<=550") {
+				font-size: 1rem;
+			}
+		}
+		button {
+			@include flex;
+			border-radius: 5px;
+			@include button-fx;
+			transition: 0.2s;
+			@include media("<=550") {
+				font-size: 1.4rem;
+			}
+		}
+		.buttonCont {
+			@include flex;
+			a {
+				&:not(:last-child) {
+					margin-right: 5px;
+				}
+			}
+		}
+	}
+}

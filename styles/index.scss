@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap");
+
+$max-width: 900px;
+
+$app-background: var(--app-background);
+$app-alt-bg: var(--app-alt-bg);
+$app-text: var(--app-text);
+
+$star-color: var(--star-color);
+
+@import "./breakpoints.scss";
+
+$breakpoints: (
+	"550": 550px,
+	"800": 800px,
+	"1080": 1080px,
+) !default;
+
+.mono {
+	font-family: "Roboto Mono", monospace;
+	font-weight: 500;
+	letter-spacing: -0.5px;
+	font-size: 0.95rem;
+}
+.introSection,
+.skillsSection,
+.featureMapSection,
+.projectMapSection,
+.contactSection,
+.projectView,
+.aboutRoute {
+	margin-bottom: 125px;
+	transition: 0.3s;
+	@include media("<=800") {
+		margin-bottom: 75px;
+	}
+}
+.sectionTitle {
+	user-select: none;
+	font-size: 2rem;
+	margin-left: -40px;
+	margin-bottom: 40px;
+	align-self: flex-start;
+	transition: 0.2s;
+	@include media("<=550") {
+		font-size: 1.75rem;
+	}
+	@include media("<=1080") {
+		margin-left: 0px;
+	}
+}
+.workRoute,
+.aboutRoute {
+	flex: 1;
+	margin-top: 25px;
+}
+
+@mixin flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@mixin button-fx {
+	color: $app-text;
+	&:hover:not([disabled]) {
+		transition: 0.2s;
+		background-color: $app-alt-bg;
+	}
+	&:active:not([disabled]) {
+		transition: 0.2s;
+		svg {
+			color: steelblue;
+		}
+	}
+}
