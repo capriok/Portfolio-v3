@@ -16,9 +16,10 @@
 		width: 100% !important;
 		max-width: 400px;
 		min-height: 200px;
-		padding: 0 20px;
+		margin: 0 -5px;
 		@include media("<=550") {
-			margin: 0 -25px;
+			padding: 0 15px;
+			margin: 0 -28px;
 		}
 
 		.image {
