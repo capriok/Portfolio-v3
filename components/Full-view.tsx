@@ -16,7 +16,7 @@ const FullView: React.FC<Props> = ({ images, view, set }) => {
 	const last = images.length - 1
 	let windowWidth
 	if (typeof window !== `undefined`) {
-		windowWidth = windowWidth.innerWidth < 500
+		windowWidth = window.innerWidth < 500
 	}
 
 	useEffect(() => {
