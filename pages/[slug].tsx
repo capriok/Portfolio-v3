@@ -1,10 +1,10 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 
+import projectsJson from '../shared/jsons/projects.json'
+
 import Layout from "../components/layouts/HomeLayout"
 import ProjectView from '../components/Project-view'
-
-import projectsJson from '../shared/jsons/projects.json'
 
 const ProjectTemplate = () => {
 	const router = useRouter()

@@ -5,7 +5,7 @@ import projectsData from '../../shared/jsons/projects.json'
 import { MdExpandMore, MdExpandLess } from 'react-icons/md'
 import ProjectCard from '../Project-card'
 
-import styles from '../../shared/styles/Components/sections/project-map.module.scss'
+import styles from '../../shared/styles/components/sections/project-map.module.scss'
 
 const ProjectMap = () => {
 	const [pg, setPg] = useState<number>(6)

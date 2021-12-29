@@ -3,6 +3,7 @@ import Link from 'next/link'
 
 import FullView from './Full-view'
 import Carousel from './Carousel'
+
 import { AiFillGithub, AiOutlineHome } from 'react-icons/ai'
 import { RiExternalLinkFill } from 'react-icons/ri'
 

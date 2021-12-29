@@ -2,7 +2,7 @@ import React from 'react'
 import { HiOutlineMail } from "react-icons/hi";
 import { SiGithub, SiLinkedin } from "react-icons/si";
 
-import styles from '../../shared/styles/Components/sections/contact.module.scss'
+import styles from '../../shared/styles/components/sections/contact.module.scss'
 
 const Contact: React.FC = () => (
 	<div className={styles.contactSection}>

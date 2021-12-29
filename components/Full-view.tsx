@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react'
 import Image from 'next/image'
-import styles from '../shared/styles/components/full-view.module.scss'
 
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
+
+import styles from '../shared/styles/components/full-view.module.scss'
 
 interface Props {
 	images: string[]

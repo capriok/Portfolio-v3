@@ -4,10 +4,10 @@ import Image from 'next/image'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
-import styles from '../shared/styles/Components/feature-card.module.scss'
-
 import { AiFillGithub } from 'react-icons/ai'
 import { RiExternalLinkFill } from 'react-icons/ri'
+
+import styles from '../shared/styles/components/feature-card.module.scss'
 
 interface Props {
 	project: Feature

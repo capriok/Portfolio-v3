@@ -3,7 +3,7 @@ import featuresData from '../../shared/jsons/features.json'
 
 import FeaturedCard from '../Feature-card'
 
-import styles from '../../shared/styles/Components/sections/feature-map.module.scss'
+import styles from '../../shared/styles/components/sections/feature-map.module.scss'
 
 const FeatureMap: React.FC = () => {
   let features: Array<Feature> = featuresData

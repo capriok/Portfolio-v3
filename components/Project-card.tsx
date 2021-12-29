@@ -7,7 +7,7 @@ import { AiOutlineFolder, AiOutlineFolderOpen } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
 import { RiExternalLinkFill } from 'react-icons/ri'
 
-import styles from '../shared/styles/Components/project-card.module.scss'
+import styles from '../shared/styles/components/project-card.module.scss'
 
 interface Props {
 	project: Project

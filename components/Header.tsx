@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "next/link"
 
-import styles from '../shared/styles/Components/header.module.scss'
+import styles from '../shared/styles/components/header.module.scss'
 
 interface Props {
 	dir?: string

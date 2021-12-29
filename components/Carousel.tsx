@@ -3,9 +3,9 @@ import Image from 'next/image'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
 
-import styles from '../shared/styles/components/carousel.module.scss'
-
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
+
+import styles from '../shared/styles/components/carousel.module.scss'
 
 interface Props {
 	images: string[]

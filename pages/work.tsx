@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Layout from '../components/layouts/HomeLayout'
 import ProjectMap from '../components/sections/Project-map'
 import SEO from '../components/Seo'
