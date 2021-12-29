@@ -8,7 +8,7 @@ import styles from '@styles/components/work.module.scss'
 
 const Work: React.FC = () => (
 	<Layout>
-		<SEO title="Work" />
+		<SEO title="Projects" />
 		<div className={styles.workRoute}>
 			<ProjectMap />
 		</div>

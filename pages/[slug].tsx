@@ -4,6 +4,7 @@ import projects from '@json/projects.json'
 
 import Layout from "@components/layouts/HomeLayout"
 import ProjectView from '@components/Project-view'
+import SEO from '@components/Seo'
 
 export async function getStaticPaths() {
 	const paths = projects.map(p => {
@@ -20,6 +21,7 @@ export async function getStaticProps({ params }) {
 const ProjectTemplate: React.FC<{ project: Project }> = ({ project }) => {
 	return (
 		<Layout>
+			<SEO title={project.title} />
 			<ProjectView project={project} />
 		</Layout>
 	)
