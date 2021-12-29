@@ -4,7 +4,7 @@ import { isEqual } from 'lodash'
 import { IoMdPartlySunny } from 'react-icons/io'
 import { IoMdCloudyNight } from 'react-icons/io'
 
-import styles from '../shared/styles/components/switch.module.scss'
+import styles from '@styles/components/switch.module.scss'
 
 interface Props {
 	isMobile: boolean

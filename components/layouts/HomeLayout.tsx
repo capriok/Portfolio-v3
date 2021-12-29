@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react'
 import { useScrollDirection } from "react-hooks-lab";
 
-import Stars from '../Stars';
-import Switch from '../Switch';
-import Header from '../Header'
+import Stars from '@components/Stars';
+import Switch from '@components/Switch';
+import Header from '@components/Header'
 
-import styles from '../../shared/styles/components/layouts.module.scss'
+import styles from '@styles/components/layouts.module.scss'
 
 const Layout: React.FC = ({ children }) => {
   const [dir, setDir] = useState<string>('top')

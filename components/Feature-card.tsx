@@ -7,7 +7,7 @@ import 'animate.css/animate.min.css';
 import { AiFillGithub } from 'react-icons/ai'
 import { RiExternalLinkFill } from 'react-icons/ri'
 
-import styles from '../shared/styles/components/feature-card.module.scss'
+import styles from '@styles/components/feature-card.module.scss'
 
 interface Props {
 	project: Feature

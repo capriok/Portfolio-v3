@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import { MdChevronLeft, MdChevronRight } from 'react-icons/md'
 
-import styles from '../shared/styles/components/full-view.module.scss'
+import styles from '@styles/components/full-view.module.scss'
 
 interface Props {
 	images: string[]
@@ -14,7 +14,10 @@ interface Props {
 const FullView: React.FC<Props> = ({ images, view, set }) => {
 	const first = 0
 	const last = images.length - 1
-	const windowWidth = window.innerWidth
+	let windowWidth
+	if (typeof window !== `undefined`) {
+		windowWidth = windowWidth.innerWidth < 500
+	}
 
 	useEffect(() => {
 		window.addEventListener('keydown', handleKey)

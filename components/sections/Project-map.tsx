@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
-import featuresData from '../../shared/jsons/features.json'
-import projectsData from '../../shared/jsons/projects.json'
+import featuresJson from '@json/features.json'
+import projectsJson from '@json/projects.json'
 
 import { MdExpandMore, MdExpandLess } from 'react-icons/md'
-import ProjectCard from '../Project-card'
+import ProjectCard from '@components/Project-card'
 
-import styles from '../../shared/styles/components/sections/project-map.module.scss'
+import styles from '@styles/components/sections/project-map.module.scss'
 
-const ProjectMap = () => {
+const ProjectMap: React.FC = () => {
 	const [pg, setPg] = useState<number>(6)
 
 	let atHome
@@ -15,12 +15,8 @@ const ProjectMap = () => {
 		atHome = window.location.pathname === '/'
 	}
 
-	const features: Array<Feature> = featuresData
-	const projects: Array<Project> = projectsData
-
-	const slugs = features.map((f) => f.slug)
-
-	let filteredProjects = [...projects].filter((p) => {
+	const slugs = featuresJson.map((f) => f.slug)
+	const projects = [...projectsJson].filter((p) => {
 		if (!atHome) return p
 		if (slugs.some(s => s === p.slug)) return
 		return p
@@ -30,7 +26,7 @@ const ProjectMap = () => {
 		<div className={styles.projectMapSection}>
 			<h1 className={styles.sectionTitle}>Project Collection</h1>
 			<div className={styles.cardCont}>
-				{filteredProjects.slice(0, atHome ? pg : filteredProjects.length).map((project, i) => (
+				{projects.slice(0, atHome ? pg : projects.length).map((project, i) => (
 					<ProjectCard key={i} project={project} />
 				))}
 			</div>
@@ -41,7 +37,7 @@ const ProjectMap = () => {
 							<MdExpandLess />
 						</button>
 					}
-					{pg <= filteredProjects.length &&
+					{pg <= projects.length &&
 						<button onClick={() => setPg(pg + 3)}>
 							<MdExpandMore />
 						</button>

@@ -1,5 +1,7 @@
 {
-  "name": "portfolio3",
+  "name": "portfolio",
+  "version": "3.0.0",
+  "author": "kyle caprio",
   "private": true,
   "scripts": {
     "dev": "next dev",

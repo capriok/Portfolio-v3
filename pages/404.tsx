@@ -1,7 +1,7 @@
 import React from "react"
 
-import Layout from "../components/layouts/HomeLayout"
-import SEO from "../components/Seo"
+import Layout from '@components/layouts/HomeLayout'
+import SEO from '@components/Seo'
 
 const NotFound: React.FC = () => (
   <Layout>

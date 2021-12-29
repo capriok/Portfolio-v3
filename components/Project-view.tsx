@@ -7,7 +7,7 @@ import Carousel from './Carousel'
 import { AiFillGithub, AiOutlineHome } from 'react-icons/ai'
 import { RiExternalLinkFill } from 'react-icons/ri'
 
-import styles from '../shared/styles/components/project-view.module.scss'
+import styles from '@styles/components/project-view.module.scss'
 
 interface Props {
 	project: Project
