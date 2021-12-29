@@ -5,7 +5,7 @@ import Stars from '../Stars';
 import Switch from '../Switch';
 import Header from '../Header'
 
-import styles from '../../shared/styles/Components/Layouts.module.scss'
+import styles from '../../shared/styles/components/Layouts.module.scss'
 
 const Layout: React.FC = ({ children }) => {
   const [dir, setDir] = useState<string>('top')
