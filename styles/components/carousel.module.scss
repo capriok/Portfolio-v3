@@ -13,22 +13,24 @@
 		overflow: hidden;
 		user-select: none;
 		@include flex;
+		width: 100% !important;
 		max-width: 400px;
 		min-height: 200px;
-		margin: 0 auto;
+		padding: 0 20px;
 		@include media("<=550") {
-			margin: 0 5px;
+			margin: 0 -25px;
 		}
-	}
-	.image {
-		user-select: none;
-		cursor: pointer;
-		user-select: none;
-		width: 100%;
-		max-width: 400px;
-		max-height: 200px;
-		border-radius: 5px;
-		border: 1px solid black !important;
+
+		.image {
+			user-select: none;
+			cursor: pointer;
+			user-select: none;
+			width: 100%;
+			max-width: 400px;
+			max-height: 200px;
+			border-radius: 5px;
+			border: 1px solid black !important;
+		}
 	}
 	.controls {
 		@include flex;
