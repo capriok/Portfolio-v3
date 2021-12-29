@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
-import featuresData from '../../public/features.json'
-import projectsData from '../../public/projects.json'
+import featuresData from '../../shared/jsons/features.json'
+import projectsData from '../../shared/jsons/projects.json'
 
 import { MdExpandMore, MdExpandLess } from 'react-icons/md'
-import ProjectCard from '../ProjectCard'
+import ProjectCard from '../Project-card'
 
-import styles from '../../styles/Components/sections/ProjectMap.module.scss'
+import styles from '../../shared/styles/Components/sections/project-map.module.scss'
 
 const ProjectMap = () => {
 	const [pg, setPg] = useState<number>(6)

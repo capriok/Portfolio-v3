@@ -1,9 +1,9 @@
 import React from 'react'
-import featuresData from '../../public/features.json'
+import featuresData from '../../shared/jsons/features.json'
 
-import FeaturedCard from '../FeatureCard'
+import FeaturedCard from '../Feature-card'
 
-import styles from '../../styles/Components/sections/FeatureMap.module.scss'
+import styles from '../../shared/styles/Components/sections/feature-map.module.scss'
 
 const FeatureMap: React.FC = () => {
   let features: Array<Feature> = featuresData

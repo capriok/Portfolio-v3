@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from '../components/Layouts/ResumeLayout'
+import Layout from '../components/layouts/ResumeLayout'
 
-import styles from '../styles/Components/Resume.module.scss'
+import styles from '../shared/styles/components/resume.module.scss'
 
 const PDF = process.env.NEXT_PUBLIC_RESUME
 

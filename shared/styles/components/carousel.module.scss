@@ -1,0 +1,43 @@
+@import "../index.scss";
+
+.carouselCont {
+	@include flex;
+	flex-direction: column;
+	width: 100%;
+	padding: 0 0 20px;
+	ul {
+		padding: 0;
+		margin-bottom: 20px;
+	}
+	.imageCont {
+		overflow: hidden;
+		user-select: none;
+		@include flex;
+		max-width: 400px;
+		min-height: 200px;
+		margin: 0 auto;
+		@include media("<=550") {
+			margin: 0 5px;
+		}
+	}
+	.image {
+		user-select: none;
+		cursor: pointer;
+		user-select: none;
+		width: 100%;
+		max-width: 400px;
+		max-height: 200px;
+		border-radius: 5px;
+		border: 1px solid black !important;
+	}
+	.controls {
+		@include flex;
+		margin-top: 20px;
+		width: 100%;
+		button {
+			@include flex;
+			margin-right: 5px;
+			@include button-fx;
+		}
+	}
+}

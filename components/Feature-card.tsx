@@ -4,7 +4,7 @@ import Image from 'next/image'
 import ScrollAnimation from 'react-animate-on-scroll';
 import 'animate.css/animate.min.css';
 
-import styles from '../styles/Components/FeatureCard.module.scss'
+import styles from '../shared/styles/Components/feature-card.module.scss'
 
 import { AiFillGithub } from 'react-icons/ai'
 import { RiExternalLinkFill } from 'react-icons/ri'
@@ -31,8 +31,8 @@ const FeaturedCard: React.FC<Props> = ({ project, index }) => {
 
 				</div>
 				<div className={styles.contentCont}>
-					<Link passHref href={`/${project.slug}`}><h5 className={styles.mono}>Featured Project</h5></Link>
-					<Link passHref href={`/${project.slug}`}><h2>{project.title}</h2></Link>
+					<h5 className={styles.mono}>Featured Project</h5>
+					<Link passHref href={`/${project.slug}`}><a><h2>{project.title}</h2></a></Link>
 					<p className={styles.descriptionCont}>{project.description}</p>
 					<div className={styles.tags}>
 						{project.tags.map(t => (

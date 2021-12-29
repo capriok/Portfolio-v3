@@ -1,10 +1,10 @@
 import React from 'react'
 
-import Layout from '../components/Layouts/HomeLayout'
-import Contact from '../components/Sections/Contact'
+import Layout from '../components/layouts/HomeLayout'
+import Contact from '../components/sections/Contact'
 import SEO from '../components/Seo'
 
-import styles from '../styles/Components/About.module.scss'
+import styles from '../shared/styles/components/about.module.scss'
 
 const About: React.FC = () => (
   <Layout>

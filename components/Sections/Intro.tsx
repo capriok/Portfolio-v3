@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from '../../styles/Components/sections/Intro.module.scss'
+import styles from '../../shared/styles/Components/sections/intro.module.scss'
 
 const Introduction: React.FC = () => (
 	<div className={styles.introSection}>

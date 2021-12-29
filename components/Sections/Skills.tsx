@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
-import styles from '../../styles/Components/Sections/Skills.module.scss'
+import styles from '../../shared/styles/Components/Sections/skills.module.scss'
 
 import {
 	SiJavascript,

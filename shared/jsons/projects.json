@@ -26,15 +26,15 @@
 		],
 		"source": "https://github.com/capriok/sweetie",
 		"demo": "https://github.com/capriok/sweetie",
-		"thumb": "./images/SWEETIE-SHOWCASE.jpg",
+		"thumb": "/images/SWEETIE-SHOWCASE.jpg",
 		"images": [
-			"./images/SWEETIE-SHOWCASE.jpg",
-			"./images/SWEETIE-PRODUCT.jpg",
-			"./images/SWEETIE-MOBILE1.jpg",
-			"./images/SWEETIE-MOBILE2.jpg",
-			"./images/SWEETIE-MOBILE3.jpg",
-			"./images/SWEETIE-MOBILE4.jpg",
-			"./images/SWEETIE-MOBILE5.jpg"
+			"/images/SWEETIE-SHOWCASE.jpg",
+			"/images/SWEETIE-PRODUCT.jpg",
+			"/images/SWEETIE-MOBILE1.jpg",
+			"/images/SWEETIE-MOBILE2.jpg",
+			"/images/SWEETIE-MOBILE3.jpg",
+			"/images/SWEETIE-MOBILE4.jpg",
+			"/images/SWEETIE-MOBILE5.jpg"
 		],
 		"resources": [
 			"https://www.typescriptlang.org/docs/home.html",
@@ -68,11 +68,11 @@
 		],
 		"source": "https://github.com/capriok/autoSearch",
 		"demo": "https://codesandbox.io/s/autosearch-ltzg7",
-		"thumb": "./images/AUTOSEARCH-SANDBOX.jpg",
+		"thumb": "/images/AUTOSEARCH-SANDBOX.jpg",
 		"images": [
-			"./images/AUTOSEARCH-SHOWCASE.jpg",
-			"./images/AUTOSEARCH-SANDBOX.jpg",
-			"./images/AUTOSEARCH-VISUAL.gif"
+			"/images/AUTOSEARCH-SHOWCASE.jpg",
+			"/images/AUTOSEARCH-SANDBOX.jpg",
+			"/images/AUTOSEARCH-VISUAL.gif"
 		],
 		"resources": [
 			"https://docs.npmjs.com/cli/v6/commands/npm-publish",
@@ -106,11 +106,11 @@
 		],
 		"source": "https://github.com/capriok/WorkPoints",
 		"demo": "https://marketplace.visualstudio.com/items?itemName=capriok.workpoints",
-		"thumb": "./images/WORKPOINTS-MARKETPLACE.jpg",
+		"thumb": "/images/WORKPOINTS-MARKETPLACE.jpg",
 		"images": [
-			"./images/WORKPOINTS-SHOWCASE.jpg",
-			"./images/WORKPOINTS-MARKETPLACE.jpg",
-			"./images/WORKPOINTS-VISUAL.gif"
+			"/images/WORKPOINTS-SHOWCASE.jpg",
+			"/images/WORKPOINTS-MARKETPLACE.jpg",
+			"/images/WORKPOINTS-VISUAL.gif"
 		],
 		"resources": [
 			"https://code.visualstudio.com/api",
@@ -145,14 +145,14 @@
 		],
 		"source": "https://github.com/capriok/Board-Master",
 		"demo": "https://board-master.kylecaprio.dev",
-		"thumb": "./images/BMASTER-HOME.jpg",
+		"thumb": "/images/BMASTER-HOME.jpg",
 		"images": [
-			"./images/BMASTER-SHOWCASE.jpg",
-			"./images/BMASTER-HOME.jpg",
-			"./images/BMASTER-CHAT.jpg",
-			"./images/BMASTER-LOBBY.jpg",
-			"./images/BMASTER-MATCH.jpg",
-			"./images/BMASTER-RESULT.jpg"
+			"/images/BMASTER-SHOWCASE.jpg",
+			"/images/BMASTER-HOME.jpg",
+			"/images/BMASTER-CHAT.jpg",
+			"/images/BMASTER-LOBBY.jpg",
+			"/images/BMASTER-MATCH.jpg",
+			"/images/BMASTER-RESULT.jpg"
 		],
 		"resources": [
 			"https://socket.io",
@@ -187,14 +187,14 @@
 		],
 		"source": "https://github.com/capriok/ApexPerformance",
 		"demo": "https://apextrainingapp.com",
-		"thumb": "./images/APEXAPF-SHOWCASE.jpg",
+		"thumb": "/images/APEXAPF-SHOWCASE.jpg",
 		"images": [
-			"./images/APEXAPF-SHOWCASE.jpg",
-			"./images/APEXAPF-VISUAL.jpg",
-			"./images/APEXFT-VISUAL.jpg",
-			"./images/APEXFT-VISUAL2.jpg",
-			"./images/APEXFT-LAPTOP.jpg",
-			"./images/APEXFT-TABLET.jpg"
+			"/images/APEXAPF-SHOWCASE.jpg",
+			"/images/APEXAPF-VISUAL.jpg",
+			"/images/APEXFT-VISUAL.jpg",
+			"/images/APEXFT-VISUAL2.jpg",
+			"/images/APEXFT-LAPTOP.jpg",
+			"/images/APEXFT-TABLET.jpg"
 		],
 		"resources": [
 			"https://www.typescriptlang.org/docs/home.html",
@@ -229,11 +229,11 @@
 		],
 		"source": "https://github.com/capriok/react-draggable-array",
 		"demo": "https://codesandbox.io/s/react-draggable-array-2kdql",
-		"thumb": "./images/DRAGGABLE-NPM.jpg",
+		"thumb": "/images/DRAGGABLE-NPM.jpg",
 		"images": [
-			"./images/DRAGGABLE-GIT.jpg",
-			"./images/DRAGGABLE-NPM.jpg",
-			"./images/DRAGGABLE-VISUAL.gif"
+			"/images/DRAGGABLE-GIT.jpg",
+			"/images/DRAGGABLE-NPM.jpg",
+			"/images/DRAGGABLE-VISUAL.gif"
 		],
 		"resources": [
 			"https://reactjs.org/docs/react-api.html",
@@ -270,13 +270,13 @@
 		],
 		"source": "https://github.com/capriok/KPCon-Client",
 		"demo": "https://www.keithphillingane.com",
-		"thumb": "./images/KPCON-INTRO.jpg",
+		"thumb": "/images/KPCON-INTRO.jpg",
 		"images": [
-			"./images/KPCON-SHOWCASE.jpg",
-			"./images/KPCON-INTRO.jpg",
-			"./images/KPCON-DETAIL.jpg",
-			"./images/KPCON-GALLERY.jpg",
-			"./images/KPCON-EMAIL.jpg"
+			"/images/KPCON-SHOWCASE.jpg",
+			"/images/KPCON-INTRO.jpg",
+			"/images/KPCON-DETAIL.jpg",
+			"/images/KPCON-GALLERY.jpg",
+			"/images/KPCON-EMAIL.jpg"
 		],
 		"resources": [
 			"https://nodemailer.com/about"
@@ -314,13 +314,13 @@
 		],
 		"source": "https://github.com/capriok/Godspeed",
 		"demo": "https://godspeed.kylecaprio.dev",
-		"thumb": "./images/GODSPEED-HOME.jpg",
+		"thumb": "/images/GODSPEED-HOME.jpg",
 		"images": [
-			"./images/GODSPEED-SHOWCASE.jpg",
-			"./images/GODSPEED-HOME.jpg",
-			"./images/GODSPEED-BUTTON.jpg",
-			"./images/GODSPEED-INPUT.jpg",
-			"./images/GODSPEED-MODAL.jpg"
+			"/images/GODSPEED-SHOWCASE.jpg",
+			"/images/GODSPEED-HOME.jpg",
+			"/images/GODSPEED-BUTTON.jpg",
+			"/images/GODSPEED-INPUT.jpg",
+			"/images/GODSPEED-MODAL.jpg"
 		],
 		"resources": [
 			"https://www.styled-components.com",
@@ -352,9 +352,9 @@
 		],
 		"source": "https://github.com/capriok/Env-Locker",
 		"demo": "https://kylecaprio.dev/env-locker",
-		"thumb": "./images/NOT-FOUND.jpg",
+		"thumb": "/images/NOT-FOUND.jpg",
 		"images": [
-			"./images/NOT-FOUND.jpg"
+			"/images/NOT-FOUND.jpg"
 		],
 		"resources": [
 			"https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0"
@@ -388,12 +388,12 @@
 		],
 		"source": "https://github.com/capriok/CashFlow",
 		"demo": "https://cashflow.kylecaprio.dev",
-		"thumb": "./images/CASHFLOW-GREETING.jpg",
+		"thumb": "/images/CASHFLOW-GREETING.jpg",
 		"images": [
-			"./images/CASHFLOW-GREETING.jpg",
-			"./images/CASHFLOW-DATASHEET.jpg",
-			"./images/CASHFLOW-NEWBUDGET.jpg",
-			"./images/CASHFLOW-DELETE.jpg"
+			"/images/CASHFLOW-GREETING.jpg",
+			"/images/CASHFLOW-DATASHEET.jpg",
+			"/images/CASHFLOW-NEWBUDGET.jpg",
+			"/images/CASHFLOW-DELETE.jpg"
 		],
 		"resources": [
 			"https://www.typescriptlang.org/docs/home.html"
@@ -428,15 +428,15 @@
 		],
 		"source": "https://github.com/capriok/SQLifting",
 		"demo": "https://sqlifting.kylecaprio.dev",
-		"thumb": "./images/SQLIFTING-MANAGE.jpg",
+		"thumb": "/images/SQLIFTING-MANAGE.jpg",
 		"images": [
-			"./images/SQLIFTING-SHOWCASE.jpg",
-			"./images/SQLIFTING-GREETING.jpg",
-			"./images/SQLIFTING-PROFILE.jpg",
-			"./images/SQLIFTING-MANAGE.jpg",
-			"./images/SQLIFTING-ASSEMBLE.jpg",
-			"./images/SQLIFTING-WORKOUT.jpg",
-			"./images/SQLIFTING-INPROGRESS.jpg"
+			"/images/SQLIFTING-SHOWCASE.jpg",
+			"/images/SQLIFTING-GREETING.jpg",
+			"/images/SQLIFTING-PROFILE.jpg",
+			"/images/SQLIFTING-MANAGE.jpg",
+			"/images/SQLIFTING-ASSEMBLE.jpg",
+			"/images/SQLIFTING-WORKOUT.jpg",
+			"/images/SQLIFTING-INPROGRESS.jpg"
 		],
 		"resources": [
 			"https://www.postgresql.org",
@@ -469,12 +469,12 @@
 		],
 		"source": "https://github.com/capriok/Snekkel",
 		"demo": "https://snekkel.kylecaprio.dev",
-		"thumb": "./images/SNEKKEL-SPRITE.jpg",
+		"thumb": "/images/SNEKKEL-SPRITE.jpg",
 		"images": [
-			"./images/SNEKKEL-SHOWCASE.jpg",
-			"./images/SNEKKEL-GREETING.jpg",
-			"./images/SNEKKEL-SPRITE.jpg",
-			"./images/SNEKKEL-DIFFICULTY.jpg"
+			"/images/SNEKKEL-SHOWCASE.jpg",
+			"/images/SNEKKEL-GREETING.jpg",
+			"/images/SNEKKEL-SPRITE.jpg",
+			"/images/SNEKKEL-DIFFICULTY.jpg"
 		],
 		"resources": []
 	},
@@ -507,13 +507,13 @@
 		],
 		"source": "https://github.com/capriok/DisArray",
 		"demo": "https://disarray.kylecaprio.dev",
-		"thumb": "./images/DISARRAY-START.jpg",
+		"thumb": "/images/DISARRAY-START.jpg",
 		"images": [
-			"./images/DISARRAY-SHOWCASE.jpg",
-			"./images/DISARRAY-GREETING.jpg",
-			"./images/DISARRAY-START.jpg",
-			"./images/DISARRAY-SOLVED.jpg",
-			"./images/DISARRAY-LEADERBOARD.jpg"
+			"/images/DISARRAY-SHOWCASE.jpg",
+			"/images/DISARRAY-GREETING.jpg",
+			"/images/DISARRAY-START.jpg",
+			"/images/DISARRAY-SOLVED.jpg",
+			"/images/DISARRAY-LEADERBOARD.jpg"
 		],
 		"resources": []
 	},
@@ -541,14 +541,14 @@
 		],
 		"source": "https://github.com/capriok/Portfolio-v1",
 		"demo": "https://portfolio-v1.kylecaprio.dev",
-		"thumb": "./images/PORTFOLIO-HOME.jpg",
+		"thumb": "/images/PORTFOLIO-HOME.jpg",
 		"images": [
-			"./images/PORTFOLIO-SHOWCASE.jpg",
-			"./images/PORTFOLIO-HOME.jpg",
-			"./images/PORTFOLIO-ABOUT.jpg",
-			"./images/PORTFOLIO-PROJECTS.jpg",
-			"./images/PORTFOLIO-PROJECT.jpg",
-			"./images/PORTFOLIO-RESUME.jpg"
+			"/images/PORTFOLIO-SHOWCASE.jpg",
+			"/images/PORTFOLIO-HOME.jpg",
+			"/images/PORTFOLIO-ABOUT.jpg",
+			"/images/PORTFOLIO-PROJECTS.jpg",
+			"/images/PORTFOLIO-PROJECT.jpg",
+			"/images/PORTFOLIO-RESUME.jpg"
 		],
 		"resources": [
 			"https://nodemailer.com/about"
@@ -583,10 +583,10 @@
 		],
 		"source": "https://github.com/hunterfoulk/Neet-Chat",
 		"demo": "https://github.com/hunterfoulk/Neet-Chat",
-		"thumb": "./images/NEETCHAT-HOME.jpg",
+		"thumb": "/images/NEETCHAT-HOME.jpg",
 		"images": [
-			"./images/NEETCHAT-HOME.jpg",
-			"./images/NEETCHAT-CHAT.jpg"
+			"/images/NEETCHAT-HOME.jpg",
+			"/images/NEETCHAT-CHAT.jpg"
 		],
 		"resources": [
 			"https://socket.io"
@@ -623,12 +623,12 @@
 		],
 		"source": "https://github.com/capriok/MyTube",
 		"demo": "https://mytube-music.kylecaprio.dev",
-		"thumb": "./images/MTM-PLAYER.jpg",
+		"thumb": "/images/MTM-PLAYER.jpg",
 		"images": [
-			"./images/MTM-SHOWCASE.jpg",
-			"./images/MTM-GOOGLE.jpg",
-			"./images/MTM-PLAYER.jpg",
-			"./images/MTM-PLAYLISTS.jpg"
+			"/images/MTM-SHOWCASE.jpg",
+			"/images/MTM-GOOGLE.jpg",
+			"/images/MTM-PLAYER.jpg",
+			"/images/MTM-PLAYLISTS.jpg"
 		],
 		"resources": [
 			"https://developers.google.com/youtube/v3"
@@ -663,12 +663,12 @@
 		],
 		"source": "https://github.com/capriok/Arte-Bella",
 		"demo": "https://github.com/capriok/Arte-Bella",
-		"thumb": "./images/ARTE-BELLA-HOME.jpg",
+		"thumb": "/images/ARTE-BELLA-HOME.jpg",
 		"images": [
-			"./images/ARTE-BELLA-SHOWCASE.jpg",
-			"./images/ARTE-BELLA-HOME.jpg",
-			"./images/ARTE-BELLA-HOME.jpg",
-			"./images/ARTE-BELLA-HOME.jpg"
+			"/images/ARTE-BELLA-SHOWCASE.jpg",
+			"/images/ARTE-BELLA-HOME.jpg",
+			"/images/ARTE-BELLA-HOME.jpg",
+			"/images/ARTE-BELLA-HOME.jpg"
 		],
 		"resources": []
 	},
@@ -701,13 +701,13 @@
 		],
 		"source": "https://github.com/capriok/TookFeed",
 		"demo": "https://tookfeed.kylecaprio.dev",
-		"thumb": "./images/TOOKFEED-HOME.jpg",
+		"thumb": "/images/TOOKFEED-HOME.jpg",
 		"images": [
-			"./images/TOOKFEED-SHOWCASE.jpg",
-			"./images/TOOKFEED-HOME.jpg",
-			"./images/TOOKFEED-REGISTER.jpg",
-			"./images/TOOKFEED-OPTIONS.jpg",
-			"./images/TOOKFEED-PROFILE.jpg"
+			"/images/TOOKFEED-SHOWCASE.jpg",
+			"/images/TOOKFEED-HOME.jpg",
+			"/images/TOOKFEED-REGISTER.jpg",
+			"/images/TOOKFEED-OPTIONS.jpg",
+			"/images/TOOKFEED-PROFILE.jpg"
 		],
 		"resources": [
 			"https://newsapi.org",
@@ -742,12 +742,12 @@
 		],
 		"source": "https://themesfromkyle.tumblr.com",
 		"demo": "https://themesfromkyle.tumblr.com",
-		"thumb": "./images/TFK-HOME.jpg",
+		"thumb": "/images/TFK-HOME.jpg",
 		"images": [
-			"./images/TFK-HOME.jpg",
-			"./images/TFK-PREV1.jpg",
-			"./images/TFK-PREV2.jpg",
-			"./images/TFK-PREV3.jpg"
+			"/images/TFK-HOME.jpg",
+			"/images/TFK-PREV1.jpg",
+			"/images/TFK-PREV2.jpg",
+			"/images/TFK-PREV3.jpg"
 		],
 		"resources": [
 			"https://www.jquery.com"

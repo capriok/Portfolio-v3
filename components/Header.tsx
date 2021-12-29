@@ -1,7 +1,7 @@
 import React from "react"
 import Link from "next/link"
 
-import styles from '../styles/Components/Header.module.scss'
+import styles from '../shared/styles/Components/header.module.scss'
 
 interface Props {
 	dir?: string
@@ -39,14 +39,14 @@ const Header: React.FC<Props> = ({ dir, pos = 0, atHome, isMobile }) => {
 	return (
 		<header className={headerClass()}>
 			<div className={styles.headCont}>
-				<Link passHref href="/"><h1 className={styles.title}>KC</h1></Link>
+				<Link passHref href="/"><a><h1 className={styles.title}>KC</h1></a></Link>
 				<div className={styles.navs}>
-					<Link passHref href="/about"><span className={styles.mono}>About</span></Link>
-					<Link passHref href="/work"><span className={styles.mono}>Work</span></Link>
+					<Link passHref href="/about"><a><span className={styles.mono}>About</span></a></Link>
+					<Link passHref href="/work"><a><span className={styles.mono}>Work</span></a></Link>
 					<Link passHref href="https://mail.google.com/mail/u/0/?fs=1&to=capriok7@gmail.com&su=Portfolio%20Inquiry&tf=cm" >
-						<span><a className={styles.mono} target="_blank" rel="noreferrer">Contact</a></span>
+						<a target="_blank" rel="noreferrer"><span className={styles.mono}>Contact</span></a>
 					</Link>
-					<Link passHref href="/resume"><span className={styles.mono}>Resume</span></Link>
+					<Link passHref href="/resume"><a><span className={styles.mono}>Resume</span></a></Link>
 				</div>
 			</div>
 		</header>

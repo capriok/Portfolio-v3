@@ -1,11 +1,5 @@
 @import "../index.scss";
 
-.viewClickout {
-	position: fixed;
-	height: 100vh;
-	width: 100vw;
-	background-color: rgba($color: black, $alpha: 0.5);
-}
 .fullView {
 	z-index: 100;
 	@include flex;
@@ -36,4 +30,10 @@
 			@include button-fx;
 		}
 	}
+}
+.viewClickout {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	background-color: rgba($color: black, $alpha: 0.5);
 }

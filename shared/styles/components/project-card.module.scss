@@ -99,6 +99,7 @@
 		&:hover {
 			background-color: $app-background;
 			.head {
+				transition: 0.2s;
 				.cardTitle {
 					margin-right: 10px;
 				}
@@ -106,6 +107,7 @@
 
 			.folderOpen {
 				display: block;
+				margin-left: 0 !important;
 				color: steelblue !important;
 			}
 			.folderClosed {

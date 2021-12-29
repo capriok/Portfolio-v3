@@ -3,11 +3,11 @@ import Link from 'next/link'
 import ScrollAnimation from 'react-animate-on-scroll';
 import "animate.css/animate.min.css";
 
-import styles from '../styles/Components/ProjectCard.module.scss'
-
 import { AiOutlineFolder, AiOutlineFolderOpen } from 'react-icons/ai'
 import { AiFillGithub } from 'react-icons/ai'
 import { RiExternalLinkFill } from 'react-icons/ri'
+
+import styles from '../shared/styles/Components/project-card.module.scss'
 
 interface Props {
 	project: Project
@@ -25,7 +25,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
 				<div className={styles.head}>
 					<div className={styles.folderClosed}><AiOutlineFolder /></div>
 					<div className={styles.folderOpen}><AiOutlineFolderOpen /></div>
-					<Link passHref href={`/${project.slug}`}><h3 className={styles.cardTitle}>{project.title}</h3></Link>
+					<Link passHref href={`/${project.slug}`}><a><h3 className={styles.cardTitle}>{project.title}</h3></a></Link>
 				</div>
 				<div className={styles.description}>
 					<p>{project.description}</p>

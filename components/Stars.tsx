@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../styles/Components/Stars.module.scss'
+import styles from '../shared/styles/Components/stars.module.scss'
 
 const Stars: React.FC = () => (
 	<div className={styles.starsCont}>
