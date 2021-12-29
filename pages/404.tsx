@@ -3,7 +3,7 @@ import React from "react"
 import Layout from "../components/layouts/HomeLayout"
 import SEO from "../components/Seo"
 
-const NotFoundPage: React.FC = () => (
+const NotFound: React.FC = () => (
   <Layout>
     <SEO title="404: Not found" />
     <div style={{ paddingTop: '10vh', textAlign: 'center' }}>
@@ -13,4 +13,4 @@ const NotFoundPage: React.FC = () => (
   </Layout >
 )
 
-export default NotFoundPage
+export default NotFound
