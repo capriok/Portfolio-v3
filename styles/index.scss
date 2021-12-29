@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap");
-
 $max-width: 900px;
 
 $app-background: var(--app-background);
@@ -17,7 +15,7 @@ $breakpoints: (
 ) !default;
 
 .mono {
-	font-family: "Roboto Mono", monospace;
+	font-family: "Roboto Mono", monospace !important;
 	font-weight: 500;
 	letter-spacing: -0.5px;
 	font-size: 0.95rem;

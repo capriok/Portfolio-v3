@@ -36,6 +36,8 @@ const Header: React.FC<Props> = ({ dir, pos = 0, atHome, isMobile }) => {
 		return cns
 	}
 
+	console.log(styles);
+
 	return (
 		<header className={headerClass()}>
 			<div className={styles.headCont}>
