@@ -2,7 +2,7 @@ import React from "react"
 
 import Header from "../Header"
 
-import styles from '../../shared/styles/components/Layouts.module.scss'
+import styles from '../../shared/styles/components/layouts.module.scss'
 
 const Layout: React.FC = ({ children }) => {
   let atHome
