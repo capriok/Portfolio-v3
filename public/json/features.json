@@ -1,35 +1,8 @@
 [
 	{
-		"title": "Apex Performance",
-		"slug": "apex-performance",
-		"description": "Local client's professional athletic training facility website showcasing services offered and roster of available personnel.",
-		"tags": [
-			"Next.js",
-			"TypeScript",
-			"2021"
-		],
-		"source": "https://github.com/capriok/ApexPerformance",
-		"demo": "https://kylecaprio.dev/apex-performance",
-		"thumb": "/images/APEXAPF-SHOWCASE.jpg"
-	},
-	{
-		"title": "Board Master",
-		"slug": "board-master",
-		"description": "Head to head competitive typing test featuring words per minute and accuracy scoring, built on Express.js and Socket.io",
-		"tags": [
-			"React",
-			"TypeScript",
-			"Socket.io",
-			"2021"
-		],
-		"source": "https://github.com/capriok/Board-Master",
-		"demo": "https://board-master.kylecaprio.dev",
-		"thumb": "/images/BMASTER-SHOWCASE.jpg"
-	},
-	{
 		"title": "Sweetie",
 		"slug": "sweetie",
-		"description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and pet and plant schedules.",
+		"description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and various schedules",
 		"tags": [
 			"TypeScript",
 			"Raspberry Pi",
@@ -39,5 +12,32 @@
 		"source": "https://github.com/capriok/sweetie",
 		"demo": "https://sweetie.kylecaprio.dev",
 		"thumb": "/images/SWEETIE-SHOWCASE.jpg"
+	},
+	{
+		"title": "AutoSearch",
+		"slug": "autosearch",
+		"description": "NPM Package - React autocomplete and search component featuring keyboard navigation and easy customization",
+		"tags": [
+			"NPM Package",
+			"TypeScript",
+			"Rollup",
+			"2021"
+		],
+		"source": "https://github.com/capriok/autoSearch",
+		"demo": "https://codesandbox.io/s/autosearch-ltzg7",
+		"thumb": "/images/AUTOSEARCH-SHOWCASE.jpg"
+	},
+	{
+		"title": "Apex Performance",
+		"slug": "apex-performance",
+		"description": "Professional athletic facility's training application and public website showcasing services offered and roster of available personnel",
+		"tags": [
+			"Next.js",
+			"TypeScript",
+			"2021"
+		],
+		"source": "https://github.com/capriok/ApexPerformance",
+		"demo": "https://kylecaprio.dev/apex-performance",
+		"thumb": "/images/APEXFT-SHOWCASE.jpg"
 	}
 ]
