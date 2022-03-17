@@ -32,20 +32,19 @@ const About: React.FC = () => (
             <p>Deans List, 3.97 GPA</p>
           </li>
         </ul>
-        <h2 >Experience</h2>
+        <h2>Experience</h2>
         <ul>
           <li>
-            <p>2+ years</p>
-            <p>Distributing web graphics and designs to personally attained clients</p>
-            <p>Designing, building and maintaining client web applications</p>
+            <p className={styles.experienceTimeframe}>Mar 2022 - Present</p>
+            <p className={styles.experienceOccupation}>Front End Software Developer - Ingalls Information Security</p>
+            <p>Interpret application and interface designs to develop modern, responsive web solutions using technologies in the React ecosystem</p>
+            <p>Monitoring, and improving front end user interface performance</p>
           </li>
           <li>
-            <p>3+ years</p>
-            <p>Building personal projects to learn and practice new technologies</p>
-          </li>
-          <li>
-            <p>10+ years</p>
-            <p>Building and creating web content for others to enjoy</p>
+            <p className={styles.experienceTimeframe}>Mar 2020 - Feb 2022</p>
+            <p className={styles.experienceOccupation}>Web Development and Design - Freelance</p>
+            <p>Design and build websites for small business clients</p>
+            <p>Provide product alterations and email server maintenance.</p>
           </li>
         </ul>
       </div>

@@ -20,14 +20,19 @@
 		}
 		ul {
 			li {
+				list-style: none;
 				&:not(:last-child) {
-					padding-bottom: 15px;
+					padding-bottom: 20px;
 				}
 				p {
 					margin: 0;
 					&:not(:first-child) {
 						padding-left: 10px;
 					}
+				}
+				.experienceOccupation {
+					text-indent: -10px;
+					font-weight: bold;
 				}
 			}
 		}
