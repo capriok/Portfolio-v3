@@ -43,7 +43,7 @@ const Header: React.FC<Props> = ({ dir, pos = 0, atHome, isMobile }) => {
 				<div className={styles.navs}>
 					<Link passHref href="/about"><a><span className={styles.mono}>About</span></a></Link>
 					<Link passHref href="/work"><a><span className={styles.mono}>Work</span></a></Link>
-					<Link passHref href="https://mail.google.com/mail/u/0/?fs=1&to=capriok7@gmail.com&su=Portfolio%20Inquiry&tf=cm" >
+					<Link passHref href="https://mail.google.com/mail/u/0/?fs=1&to=capriokdev@gmail.com&su=Portfolio%20Inquiry&tf=cm" >
 						<a target="_blank" rel="noreferrer"><span className={styles.mono}>Contact</span></a>
 					</Link>
 					<Link passHref href="/resume"><a><span className={styles.mono}>Resume</span></a></Link>
