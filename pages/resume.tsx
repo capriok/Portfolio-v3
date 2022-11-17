@@ -4,8 +4,7 @@ import Layout from "../components/layouts/ResumeLayout";
 
 import styles from "../styles/components/resume.module.scss";
 
-const PrimaryPDF = process.env.NEXT_PUBLIC_RESUME;
-const FallbackPDF = process.env.NEXT_PUBLIC_RESUME_DIRECT;
+const PrimaryPDF = process.env.NEXT_PUBLIC_RESUME_DIRECT;
 
 const Resume: React.FC = () => (
   <>
@@ -18,14 +17,7 @@ const Resume: React.FC = () => (
           width="100%"
           height="100%"
         >
-          <object
-            data={FallbackPDF}
-            type="application/pdf"
-            width="100%"
-            height="100%"
-          >
-            Resume
-          </object>
+          Resume
         </object>
       </div>
       <div className={styles.resumeMobile}>
