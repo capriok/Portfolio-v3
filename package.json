@@ -13,7 +13,7 @@
     "animate.css": "^4.1.1",
     "include-media": "^1.4.10",
     "lodash": "^4.17.21",
-    "next": "12.0.7",
+    "next": "^12.3.3",
     "react": "17.0.2",
     "react-alice-carousel": "^2.5.1",
     "react-animate-on-scroll": "^2.1.5",
