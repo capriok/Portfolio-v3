@@ -21,7 +21,7 @@
   {
     "title": "CSAR",
     "slug": "csar",
-    "description": "Ingalls Information Security - Department of Defense (DoD) tool that expedites various processes within the US Air force.",
+    "description": "Ingalls - DoD tool provides visibility into the ATO status of any enrolled project while fostering on cybersecurity.",
     "tags": ["TypeScript", "React", "2022"],
     "source": "https://iinfosec.com/government-programs/",
     "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-CSAR/",
