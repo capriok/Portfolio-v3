@@ -21,7 +21,7 @@
   {
     "title": "CSAR",
     "slug": "csar",
-    "description": "Ingalls - DoD tool provides visibility into the ATO status of any enrolled project while fostering on cybersecurity.",
+    "description": "Ingalls - A Tool providing visibility into the ATO status of any enrolled project while focusing on cybersecurity.",
     "tags": ["TypeScript", "React", "2022"],
     "source": "https://iinfosec.com/government-programs/",
     "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-CSAR/",
