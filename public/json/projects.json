@@ -216,34 +216,6 @@
     ]
   },
   {
-    "title": "KP Construction",
-    "slug": "kp-construction",
-    "description": "Small business client’s contractor portfolio showcasing services offered, area of expertise and highlighting past endeavors",
-    "writing": {
-      "process": "Referred by a friend and previous client, a small contracting business owner reached out to me to build his website. He previously used HomeAdvisor for marketing but wanted more customizability of the content displayed to promote his business. He specified three must-have features: an eye-catching landing page, list of services and a gallery to showcase previous work. He allowed me free-range creativity with the rest. The content from his previous marketing page was used to populate the website I built for him.",
-      "processSub": "Once I implemented features he requested, I started getting creative with the layout and user experience. Some features I added include a testimonial section showcasing positive reviews and an inquiry email server to allow clients the ability to reach out directly from within the site. I continue to honor any requests for alterations and additions to the website. His appreciation and excitement about the finished product motivated my drive to continue doing freelance work.",
-      "conclusion": [
-        "Improved UI/UX design skills",
-        "Learned about and implemented a reusable email server with express",
-        "Progressed customer service skills and ability to meet customer expectations",
-        "Acquired more possibility for referrals for new clients"
-      ]
-    },
-    "stack": ["React", "SASS", "Express.js", "NodeMailer"],
-    "tags": ["JavaScript", "React", "SASS", "2020"],
-    "source": "https://github.com/capriok/KPCon-Client",
-    "demo": "https://www.keithphillingane.com",
-    "thumb": "/images/KPCON-INTRO.jpg",
-    "images": [
-      "/images/KPCON-SHOWCASE.jpg",
-      "/images/KPCON-INTRO.jpg",
-      "/images/KPCON-DETAIL.jpg",
-      "/images/KPCON-GALLERY.jpg",
-      "/images/KPCON-EMAIL.jpg"
-    ],
-    "resources": ["https://nodemailer.com/about"]
-  },
-  {
     "title": "Godspeed",
     "slug": "godspeed",
     "description": "NPM Package - React component and toolkit library simply built for quick use and extensive customizability",
