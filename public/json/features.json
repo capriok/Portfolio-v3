@@ -1,43 +1,30 @@
 [
-	{
-		"title": "Sweetie",
-		"slug": "sweetie",
-		"description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and various schedules",
-		"tags": [
-			"TypeScript",
-			"Raspberry Pi",
-			"MongoDB",
-			"2022"
-		],
-		"source": "https://github.com/capriok/sweetie",
-		"demo": "https://sweetie.kylecaprio.dev",
-		"thumb": "/images/SWEETIE-SHOWCASE.jpg"
-	},
-	{
-		"title": "AutoSearch",
-		"slug": "autosearch",
-		"description": "NPM Package - React autocomplete and search component featuring keyboard navigation and easy customization",
-		"tags": [
-			"NPM Package",
-			"TypeScript",
-			"Rollup",
-			"2021"
-		],
-		"source": "https://github.com/capriok/autoSearch",
-		"demo": "https://codesandbox.io/s/autosearch-ltzg7",
-		"thumb": "/images/AUTOSEARCH-SHOWCASE.jpg"
-	},
-	{
-		"title": "Apex Performance",
-		"slug": "apex-performance",
-		"description": "Professional athletic facility's training application and public website showcasing services offered and roster of available personnel",
-		"tags": [
-			"Next.js",
-			"TypeScript",
-			"2021"
-		],
-		"source": "https://github.com/capriok/ApexPerformance",
-		"demo": "https://kylecaprio.dev/apex-performance",
-		"thumb": "/images/APEXFT-SHOWCASE.jpg"
-	}
+  {
+    "title": "Sweetie",
+    "slug": "sweetie",
+    "description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and various schedules",
+    "tags": ["TypeScript", "Raspberry Pi", "MongoDB", "2022"],
+    "source": "https://github.com/capriok/sweetie",
+    "demo": "https://sweetie.kylecaprio.dev",
+    "thumb": "/images/SWEETIE-SHOWCASE.jpg"
+  },
+  {
+    "title": "AutoSearch",
+    "slug": "autosearch",
+    "description": "NPM Package - React autocomplete and search component featuring keyboard navigation and easy customization",
+    "tags": ["NPM Package", "TypeScript", "Rollup", "2021"],
+    "source": "https://github.com/capriok/autoSearch",
+    "demo": "https://codesandbox.io/s/autosearch-ltzg7",
+    "thumb": "/images/AUTOSEARCH-SHOWCASE.jpg"
+  },
+
+  {
+    "title": "CSAR",
+    "slug": "csar",
+    "description": "Ingalls Information Security - Department of Defense (DoD) tool that expedites various processes within the US Air force.",
+    "tags": ["TypeScript", "React", "2022"],
+    "source": "https://iinfosec.com/government-programs/",
+    "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-CSAR/",
+    "thumb": "/images/CSAR-SHOWCASE.jpg"
+  }
 ]

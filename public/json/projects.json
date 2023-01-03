@@ -1,5 +1,30 @@
 [
   {
+    "title": "Cybersecurity Readiness Assurance (CSAR)",
+    "slug": "csar",
+    "description": "Information Security - Department of Defense (DoD) tool that expedites various processes within the US Air force. Provides visibility into the ATO status of any enrolled project while fostering a built-in, not bolted-on, cybersecurity attitude.",
+    "writing": {
+      "process": "Information Security has a multi-year, multi-million dollar contract to support the US Air Force in their efforts to on-board innovative XR (Mixed Reality) technologies and manage the Authorization To Operate (ATO) requirements necessary to do so. This multi-year, Small Business Innovation and Research (SBIR) Phase III contract is being awarded for the enhancement and maintenance of a Cybersecurity Assurance Readiness (CSAR) tool developed by Ingalls. CSAR will change the “snapshot in time” and paper drill compliance approach to a culture where automation and real-time continuous risk monitoring is tightly coupled with supply chain risk management and integrated software factories - which is what the DoD has been striving for, says Ms. Brandi Pickett, Director of Government Programs.",
+      "processSub": "Ingalls will enhance CSAR with capabilities that enhance visibility into the ATO status of any enrolled project, for both Authorizing Official staff and the Risk Management Team. Ingalls is working closely with Air Force Life Cycle Management Center (AFLCMC) Simulations Division Innovation Cell, Dynepic’s MOTAR Team, and stakeholders participating in the Lightweight Simulator Ecosystem (LSE). The collaboration is fostering a built-in, not bolted-on, cybersecurity attitude. CSAR builds upon the Air Force (AF) Simulators Division’s Simulator Common Architecture Requirements and Standards (SCARS) umbrella initiative by establishing approved baselines, cybersecurity roadmaps, and policies needed for an increased focus on commonality and interoperability for all DoD training efforts. CSAR advances AF commitment for Continuous ATO state, Software Modernization Transformation, and active cyber monitoring.",
+      "conclusion": [
+        "Built upon architectural perspectives to provide performant products",
+        "Produced and maintained production environments in tandom with third party teams",
+        "Evolved my team development skill working with various organization roles"
+      ]
+    },
+    "stack": ["TypeScript", "React", "Antd", "Python"],
+    "tags": ["TypeScript", "React", "2022"],
+    "source": "https://iinfosec.com/government-programs/",
+    "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-CSAR/",
+    "thumb": "/images/CSAR-SHOWCASE.jpg",
+    "images": ["/images/INGALLS-SHOWCASE.jpg", "/images/CSAR-SHOWCASE.jpg"],
+    "resources": [
+      "https://info.iinfosec.com/cybersecurity-assurance-readiness-csar-wins-sbir-phase-iii-contract",
+      "https://www.halldale.com/articles/19954-mst-ingalls-to-advance-cybersecurity-assurance-readiness-for-air-force",
+      "https://www.einnews.com/pr_news/593255200/csar-receives-3-year-software-certification-from-air-force"
+    ]
+  },
+  {
     "title": "Chatter",
     "slug": "chatter",
     "description": "Capstone - An automated chat interface that offers help with frequently asked questions, ratings, and feedback.",
