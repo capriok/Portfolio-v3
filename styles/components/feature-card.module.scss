@@ -4,186 +4,187 @@ $overlay-opacity: 0.2;
 $image-width: 450px;
 
 .featureAnim {
-	position: relative;
-	z-index: 1;
-	flex: 1;
-	width: 100%;
-	transition: 0.2s;
-	&:not(:last-child) {
-		margin-bottom: 125px;
-	}
-	@include media("<=550") {
-		&:not(:last-child) {
-			margin-bottom: 50px;
-		}
-	}
-	.featureCard {
-		position: relative;
-		min-width: 100%;
-		&:last-child {
-			margin-bottom: 0;
-		}
-		.contentCont {
-			position: absolute;
-			top: 0;
-			right: 0;
-			@include flex;
-			flex-direction: column;
-			align-items: flex-end;
-			text-align: right;
-			width: 100%;
-			max-width: 60%;
-			transition: 0.2s;
-			@include media("<=800") {
-				max-width: 80%;
-			}
-			@include media("<=550") {
-				position: unset;
-				max-width: 100%;
-			}
-			* {
-				z-index: 2;
-			}
-			h5,
-			h2 {
-				user-select: none;
-				width: fit-content;
-				margin: 0;
-			}
-			h5 {
-				margin-bottom: 5px;
-				color: steelblue;
-			}
-			h2 {
-				font-size: 1.65rem;
-				margin: 0 0 20px 0;
-			}
-			.descriptionCont {
-				cursor: default;
-				@include flex;
-				justify-content: flex-end;
-				min-height: 60px;
-				padding: 20px 10px;
-				margin: 0 0 20px 0;
-				border-radius: 5px;
-				box-shadow: 3px 3px 10px -3px black;
-				color: white !important;
-				background-color: rgb(27, 27, 27);
-				transition: 0.2s;
-			}
-			.tags {
-				user-select: none;
-				margin-bottom: 20px;
-				span {
-					margin-left: 20px;
-				}
-			}
-			.navigation {
-				font-size: 1.6rem;
-				a {
-					transition: 0.2s;
-					&:hover {
-						transition: 0.2s;
-						color: steelblue;
-					}
-					&:first-child {
-						margin-right: 10px;
-					}
-				}
-			}
-		}
-		.thumbCont {
-			cursor: pointer;
-			user-select: none;
-			width: 100%;
-			max-width: $image-width;
-			transition: 0.2s;
-			@include media("<=550") {
-				display: none;
-			}
-			.imgCont {
-				position: relative;
-				overflow: hidden;
-				flex: 1;
-				border-radius: 5px;
-				.overlay {
-					z-index: 1;
-					position: absolute;
-					width: 100%;
-					height: 100%;
-					opacity: $overlay-opacity;
-					background-color: steelblue;
-					transition: 0.2s;
-					@include media("<=800") {
-						opacity: 0.8;
-						background-color: rgb(192, 211, 224);
-					}
-					&:hover {
-						opacity: 0;
-					}
-				}
-			}
-		}
-		&:hover {
-			.contentCont {
-				max-width: calc(60% + 10px);
-				.descriptionCont {
-					margin-right: 10px;
-				}
-			}
-			transition: 0.2s;
-			@include media("<=800") {
-				.contentCont {
-					max-width: calc(80% + 10px);
-				}
-			}
-			@include media("<=550") {
-				.contentCont {
-					max-width: calc(100%);
-					.descriptionCont {
-						margin-right: unset;
-					}
-				}
-			}
-		}
-	}
-	.inverted {
-		.contentCont {
-			position: unset;
-			align-items: flex-start;
-			margin-left: unset;
-			text-align: left;
-			margin-right: 0;
-			transition: 0.2s;
-			.tags {
-				span {
-					margin-left: unset;
-					margin-right: 20px;
-				}
-			}
-		}
-		.thumbCont {
-			position: absolute;
-			top: 0;
-			right: 0;
-		}
-		&:hover {
-			.contentCont {
-				margin-left: unset;
-				.descriptionCont {
-					margin-right: unset;
-					margin-left: 10px;
-					@include media("<=550") {
-						margin-right: unset;
-						margin-left: unset;
-					}
-				}
-			}
-		}
-		@include media("<=550") {
-			.thumbCont {
-				margin-left: unset;
-			}
-		}
-	}
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  width: 100%;
+  transition: 0.2s;
+  &:not(:last-child) {
+    margin-bottom: 125px;
+  }
+  @include media("<=550") {
+    &:not(:last-child) {
+      margin-bottom: 50px;
+    }
+  }
+  .featureCard {
+    position: relative;
+    min-width: 100%;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    .contentCont {
+      position: absolute;
+      top: 0;
+      right: 0;
+      @include flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      width: 100%;
+      max-width: 60%;
+      transition: 0.2s;
+      @include media("<=800") {
+        max-width: 80%;
+      }
+      @include media("<=550") {
+        position: unset;
+        max-width: 100%;
+      }
+      * {
+        z-index: 2;
+      }
+      h5,
+      h2 {
+        user-select: none;
+        width: fit-content;
+        margin: 0;
+      }
+      h5 {
+        margin-bottom: 5px;
+        color: steelblue;
+      }
+      h2 {
+        font-size: 1.65rem;
+        margin: 0 0 20px 0;
+      }
+      .descriptionCont {
+        cursor: default;
+        @include flex;
+        justify-content: flex-end;
+        min-height: 60px;
+        padding: 20px 10px;
+        margin: 0 0 20px 0;
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px -3px black;
+        color: white !important;
+        background-color: rgb(27, 27, 27);
+        transition: 0.2s;
+      }
+      .tags {
+        user-select: none;
+        margin-bottom: 20px;
+        span {
+          margin-left: 20px;
+        }
+      }
+      .navigation {
+        font-size: 1.6rem;
+        a {
+          transition: 0.2s;
+          &:hover {
+            transition: 0.2s;
+            color: steelblue;
+          }
+          &:first-child {
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+    .thumbCont {
+      cursor: pointer;
+      user-select: none;
+      width: 100%;
+      max-width: $image-width;
+      transition: 0.2s;
+      @include media("<=550") {
+        display: none;
+      }
+      .imgCont {
+        position: relative;
+        overflow: hidden;
+        flex: 1;
+        height: 240px;
+        border-radius: 5px;
+        .overlay {
+          z-index: 1;
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          opacity: $overlay-opacity;
+          background-color: steelblue;
+          transition: 0.2s;
+          @include media("<=800") {
+            opacity: 0.8;
+            background-color: rgb(192, 211, 224);
+          }
+          &:hover {
+            opacity: 0;
+          }
+        }
+      }
+    }
+    &:hover {
+      .contentCont {
+        max-width: calc(60% + 10px);
+        .descriptionCont {
+          margin-right: 10px;
+        }
+      }
+      transition: 0.2s;
+      @include media("<=800") {
+        .contentCont {
+          max-width: calc(80% + 10px);
+        }
+      }
+      @include media("<=550") {
+        .contentCont {
+          max-width: calc(100%);
+          .descriptionCont {
+            margin-right: unset;
+          }
+        }
+      }
+    }
+  }
+  .inverted {
+    .contentCont {
+      position: unset;
+      align-items: flex-start;
+      margin-left: unset;
+      text-align: left;
+      margin-right: 0;
+      transition: 0.2s;
+      .tags {
+        span {
+          margin-left: unset;
+          margin-right: 20px;
+        }
+      }
+    }
+    .thumbCont {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+    &:hover {
+      .contentCont {
+        margin-left: unset;
+        .descriptionCont {
+          margin-right: unset;
+          margin-left: 10px;
+          @include media("<=550") {
+            margin-right: unset;
+            margin-left: unset;
+          }
+        }
+      }
+    }
+    @include media("<=550") {
+      .thumbCont {
+        margin-left: unset;
+      }
+    }
+  }
 }
