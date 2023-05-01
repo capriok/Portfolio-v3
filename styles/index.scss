@@ -1,4 +1,4 @@
-$max-width: 900px;
+$max-width: 1000px;
 
 $app-background: var(--app-background);
 $app-alt-bg: var(--app-alt-bg);
@@ -9,16 +9,16 @@ $star-color: var(--star-color);
 @import "./breakpoints.scss";
 
 $breakpoints: (
-	"550": 550px,
-	"800": 800px,
-	"1080": 1080px,
+  "550": 550px,
+  "800": 800px,
+  "1080": 1080px,
 ) !default;
 
 .mono {
-	font-family: "Roboto Mono", monospace !important;
-	font-weight: 500;
-	letter-spacing: -0.5px;
-	font-size: 0.95rem;
+  font-family: "Roboto Mono", monospace !important;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+  font-size: 0.95rem;
 }
 .introSection,
 .skillsSection,
@@ -27,47 +27,47 @@ $breakpoints: (
 .contactSection,
 .projectView,
 .aboutRoute {
-	margin-bottom: 125px;
-	transition: 0.3s;
-	@include media("<=800") {
-		margin-bottom: 75px;
-	}
+  margin-bottom: 125px;
+  transition: 0.3s;
+  @include media("<=800") {
+    margin-bottom: 75px;
+  }
 }
 .sectionTitle {
-	user-select: none;
-	font-size: 2rem;
-	margin-left: -40px;
-	margin-bottom: 40px;
-	align-self: flex-start;
-	transition: 0.2s;
-	@include media("<=550") {
-		font-size: 1.75rem;
-	}
-	@include media("<=1080") {
-		margin-left: 0px;
-	}
+  user-select: none;
+  font-size: 2rem;
+  margin-left: -40px;
+  margin-bottom: 40px;
+  align-self: flex-start;
+  transition: 0.2s;
+  @include media("<=550") {
+    font-size: 1.75rem;
+  }
+  @include media("<=1080") {
+    margin-left: 0px;
+  }
 }
 .workRoute,
 .aboutRoute {
-	flex: 1;
-	margin-top: 25px;
+  flex: 1;
+  margin-top: 25px;
 }
 
 @mixin flex {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @mixin button-fx {
-	color: $app-text;
-	&:hover:not([disabled]) {
-		transition: 0.2s;
-		background-color: $app-alt-bg;
-	}
-	&:active:not([disabled]) {
-		transition: 0.2s;
-		svg {
-			color: steelblue;
-		}
-	}
+  color: $app-text;
+  &:hover:not([disabled]) {
+    transition: 0.2s;
+    background-color: $app-alt-bg;
+  }
+  &:active:not([disabled]) {
+    transition: 0.2s;
+    svg {
+      color: steelblue;
+    }
+  }
 }

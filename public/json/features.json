@@ -21,10 +21,10 @@
   {
     "title": "CSAR",
     "slug": "csar",
-    "description": "Ingalls - A tool used by the US Air Force providing visibility into the ATO status of any enrolled project while focusing on cybersecurity.",
+    "description": "Ingalls - Cyber Security Assurance Readiness, a SBIR contracted process for Lightweight Simulator Ecosystem (LSE) used by the DoD and Air Force",
     "tags": ["TypeScript", "React", "2022"],
     "source": "https://iinfosec.com/government-programs/",
-    "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-CSAR/",
+    "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-csar/",
     "thumb": "/images/CSAR-SHOWCASE.jpg"
   }
 ]
