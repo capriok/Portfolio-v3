@@ -1,5 +1,30 @@
 [
   {
+    "title": "Pepiti Stats",
+    "slug": "pepiti",
+    "description": "Pepiti Stats - Co-creator of a community driven post-race analysis and leaderboards application for race leagues and series",
+    "writing": {
+      "process": "",
+      "processSub": "",
+      "conclusion": []
+    },
+    "stack": ["TypeScript", "Python", "Nextjs", "Tailwindcss", "AWS"],
+    "tags": ["TypeScript", "Nextjs", "Tailwindcss", "2023"],
+    "source": "https://github.com/paulrichan/pepiti-dashboard",
+    "demo": "https://pepiti.com/",
+    "thumb": "/images/PEPITI-SHOWCASE.jpg",
+    "images": [
+      "/images/PEPITI-SHOWCASE.jpg",
+      "/images/PEPITI-DASHBOARD.jpg",
+      "/images/PEPITI-RACES.jpg"
+    ],
+    "resources": [
+      "https://pepiti.com",
+      "https://nextjs.org",
+      "https://tailwindcss.com"
+    ]
+  },
+  {
     "title": "CSAR",
     "slug": "csar",
     "description": "Ingalls - Cyber Security Assurance Readiness, a SBIR contracted process for Lightweight Simulator Ecosystem (LSE) used by the DoD and Air Force",
@@ -13,7 +38,7 @@
       ]
     },
     "stack": ["TypeScript", "React", "Antd", "Python"],
-    "tags": ["TypeScript", "React", "2022"],
+    "tags": ["TypeScript", "React", "GraphQL", "2023"],
     "source": "https://github.com/capriok/",
     "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-csar/",
     "thumb": "/images/CSAR-SHOWCASE.jpg",
@@ -22,6 +47,39 @@
       "https://info.iinfosec.com/cybersecurity-assurance-readiness-csar-wins-sbir-phase-iii-contract",
       "https://www.halldale.com/articles/19954-mst-ingalls-to-advance-cybersecurity-assurance-readiness-for-air-force",
       "https://www.einnews.com/pr_news/593255200/csar-receives-3-year-software-certification-from-air-force"
+    ]
+  },
+  {
+    "title": "Sweetie",
+    "slug": "sweetie",
+    "description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and various schedules",
+    "writing": {
+      "process": "This personal project is proprietary to my home life as it encompasses things that are specific to us around the house. The application is my first code to physical product. I am running the server and the client application on a Raspberry Pi on Rasbian. The Pi starts itself up at 7am and shuts off at 10pm which ensures power optimization. The automation of the system is what makes it what it is.",
+      "processSub": "There is also an application called the Suite that allows creation and alteration of calender events, tasks, grocery lists and anything else Sweetie uses or displays. Sweetie has websocket connections polling with the server to ensure it stays updated when the Suite application updates the MongoDB database. Sweetie will refresh itself and request the most updated data from the server when certain triggers are hit.",
+      "conclusion": [
+        "Learned about Raspberry Pis and micro services",
+        "Built upon experience working with linux OS",
+        "Evolved my coding style and preferred project structure"
+      ]
+    },
+    "stack": ["Raspberry Pi", "TypeScript", "React", "Expressjs", "MongoDB"],
+    "tags": ["Raspberry Pi", "Nextjs", "TRPC", "Prisma"],
+    "source": "https://github.com/capriok/sweetie",
+    "demo": "https://sweetie.kylecaprio.dev",
+    "thumb": "/images/SWEETIE-SHOWCASE.jpg",
+    "images": [
+      "/images/SWEETIE-SHOWCASE.jpg",
+      "/images/SWEETIE-PRODUCT.jpg",
+      "/images/SWEETIE-OV.jpg",
+      "/images/SWEETIE-OP.jpg",
+      "/images/SWEETIE-CE.jpg",
+      "/images/SWEETIE-CEP.jpg",
+      "/images/SWEETIE-GL.jpg",
+      "/images/SWEETIE-CS.jpg"
+    ],
+    "resources": [
+      "https://www.typescriptlang.org/docs/home.html",
+      "https://devcenter.heroku.com"
     ]
   },
   {
@@ -56,39 +114,7 @@
       "https://netlify.com"
     ]
   },
-  {
-    "title": "Sweetie",
-    "slug": "sweetie",
-    "description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and various schedules",
-    "writing": {
-      "process": "This personal project is proprietary to my home life as it encompasses things that are specific to us around the house. The application is my first code to physical product. I am running the server and the client application on a Raspberry Pi on Rasbian. The Pi starts itself up at 7am and shuts off at 10pm which ensures power optimization. The automation of the system is what makes it what it is.",
-      "processSub": "There is also an application called the Suite that allows creation and alteration of calender events, tasks, grocery lists and anything else Sweetie uses or displays. Sweetie has websocket connections polling with the server to ensure it stays updated when the Suite application updates the MongoDB database. Sweetie will refresh itself and request the most updated data from the server when certain triggers are hit.",
-      "conclusion": [
-        "Learned about Raspberry Pis and micro services",
-        "Built upon experience working with linux OS",
-        "Evolved my coding style and preferred project structure"
-      ]
-    },
-    "stack": ["Raspberry Pi", "TypeScript", "React", "Express.js", "MongoDB"],
-    "tags": ["TypeScript", "React", "2022"],
-    "source": "https://github.com/capriok/sweetie",
-    "demo": "https://sweetie.kylecaprio.dev",
-    "thumb": "/images/SWEETIE-SHOWCASE.jpg",
-    "images": [
-      "/images/SWEETIE-SHOWCASE.jpg",
-      "/images/SWEETIE-PRODUCT.jpg",
-      "/images/SWEETIE-OV.jpg",
-      "/images/SWEETIE-OP.jpg",
-      "/images/SWEETIE-CE.jpg",
-      "/images/SWEETIE-CEP.jpg",
-      "/images/SWEETIE-GL.jpg",
-      "/images/SWEETIE-CS.jpg"
-    ],
-    "resources": [
-      "https://www.typescriptlang.org/docs/home.html",
-      "https://devcenter.heroku.com"
-    ]
-  },
+
   {
     "title": "AutoSearch",
     "slug": "autosearch",
@@ -160,7 +186,7 @@
       ]
     },
     "stack": ["TypeScript", "React", "Express.js", "Socket.io", "SASS"],
-    "tags": ["React", "Express.js", "Socket.io", "2021"],
+    "tags": ["React", "Expressjs", "Socket.io", "2021"],
     "source": "https://github.com/capriok/Board-Master",
     "demo": "https://board-master.kylecaprio.dev",
     "thumb": "/images/BMASTER-HOME.jpg",
@@ -188,8 +214,8 @@
         "Built upon personal professional reputation."
       ]
     },
-    "stack": ["TypeScript", "Next.js", "Express.js", "Netlify"],
-    "tags": ["Next.js", "TypeScript", "Freelance", "2021"],
+    "stack": ["TypeScript", "Nextjs", "Expressjs", "Netlify"],
+    "tags": ["Nextjs", "TypeScript", "Freelance", "2021"],
     "source": "https://github.com/capriok/ApexPerformance",
     "demo": "https://apextrainingapp.com",
     "thumb": "/images/APEXAFT-SHOWCASE.jpg",
@@ -340,7 +366,7 @@
         "Became more fluent with data manipulation and working with complex objects"
       ]
     },
-    "stack": ["React", "SASS", "Express.js", "AWS RDS", "MySQL"],
+    "stack": ["React", "SASS", "Expressjs", "AWS RDS", "MySQL"],
     "tags": ["JavaScript", "React", "SQL", "2021"],
     "source": "https://github.com/capriok/SQLifting",
     "demo": "https://sqlifting.kylecaprio.dev",
@@ -396,7 +422,7 @@
         "Familiarized myself with serverless HTTP API use"
       ]
     },
-    "stack": ["React", "SASS", "Express.js", "MongoDB"],
+    "stack": ["React", "SASS", "Expressjs", "MongoDB"],
     "tags": ["JavaScript", "React", "SASS", "MongoDB", "2020"],
     "source": "https://github.com/capriok/DisArray",
     "demo": "https://disarray.kylecaprio.dev",
@@ -419,7 +445,7 @@
       "processSub": "",
       "conclusion": []
     },
-    "stack": ["React", "JavaScript", "SASS", "Express.js", "NodeMailer"],
+    "stack": ["React", "JavaScript", "SASS", "Expressjs", "NodeMailer"],
     "tags": ["JavaScript", "React", "SASS", "2020"],
     "source": "https://github.com/capriok/Portfolio-v1",
     "demo": "https://portfolio-v1.kylecaprio.dev",
@@ -447,7 +473,7 @@
         "Stronger comprehension of server code and advanced web applications"
       ]
     },
-    "stack": ["React", "JavaScript", "SASS", "Express.js", "Socket.io"],
+    "stack": ["React", "JavaScript", "SASS", "Expressjs", "Socket.io"],
     "tags": ["JavaScript", "Socket.io", "React", "SASS", "2019"],
     "source": "https://github.com/hunterfoulk/Neet-Chat",
     "demo": "https://github.com/hunterfoulk/Neet-Chat",
@@ -503,7 +529,7 @@
         "Improved React conditional component rendering"
       ]
     },
-    "stack": ["React", "JavaScript", "SASS", "Express.js", "NodeMailer"],
+    "stack": ["React", "JavaScript", "SASS", "Expressjs", "NodeMailer"],
     "tags": ["JavaScript", "React", "SASS", "2019"],
     "source": "https://github.com/capriok/Arte-Bella",
     "demo": "https://github.com/capriok/Arte-Bella",

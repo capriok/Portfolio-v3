@@ -3,26 +3,25 @@
     "title": "Sweetie",
     "slug": "sweetie",
     "description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and various schedules",
-    "tags": ["TypeScript", "Raspberry Pi", "MongoDB", "2022"],
+    "tags": ["Raspberry Pi", "Nextjs", "TRPC", "2022"],
     "source": "https://github.com/capriok/sweetie",
     "demo": "https://sweetie.kylecaprio.dev",
     "thumb": "/images/SWEETIE-SHOWCASE.jpg"
   },
   {
-    "title": "AutoSearch",
-    "slug": "autosearch",
-    "description": "NPM Package - React autocomplete and search component featuring keyboard navigation and easy customization",
-    "tags": ["NPM Package", "TypeScript", "Rollup", "2021"],
-    "source": "https://github.com/capriok/autoSearch",
-    "demo": "https://codesandbox.io/s/autosearch-ltzg7",
-    "thumb": "/images/AUTOSEARCH-SHOWCASE.jpg"
+    "title": "Pepiti Stats",
+    "slug": "pepiti",
+    "description": "Pepiti Stats - Co-creator of a community driven post-race analysis and leaderboards application for race leagues and series",
+    "tags": ["TypeScript", "Nextjs", "Tailwindcss", "2023"],
+    "source": "https://github.com/paulrichan/pepiti-dashboard",
+    "demo": "https://pepiti.com/",
+    "thumb": "/images/PEPITI-SHOWCASE.jpg"
   },
-
   {
     "title": "CSAR",
     "slug": "csar",
     "description": "Ingalls - Cyber Security Assurance Readiness, a SBIR contracted process for Lightweight Simulator Ecosystem (LSE) used by the DoD and Air Force",
-    "tags": ["TypeScript", "React", "2022"],
+    "tags": ["TypeScript", "React", "GraphQL", "2023"],
     "source": "https://iinfosec.com/government-programs/",
     "demo": "https://iinfosec.com/cybersecurity-assurance-readiness-csar/",
     "thumb": "/images/CSAR-SHOWCASE.jpg"
