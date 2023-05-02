@@ -1,17 +1,17 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.min.css";
+import React from "react"
+import Link from "next/link"
+import Image from "next/image"
+import ScrollAnimation from "react-animate-on-scroll"
+import "animate.css/animate.min.css"
 
-import { AiFillGithub } from "react-icons/ai";
-import { RiExternalLinkFill } from "react-icons/ri";
+import { AiFillGithub } from "react-icons/ai"
+import { RiExternalLinkFill } from "react-icons/ri"
 
-import styles from "@styles/components/feature-card.module.scss";
+import styles from "@styles/components/feature-card.module.scss"
 
 interface Props {
-  project: Feature;
-  index: number;
+  project: Feature
+  index: number
 }
 
 const FeaturedCard: React.FC<Props> = ({ project, index }) => {
@@ -24,23 +24,14 @@ const FeaturedCard: React.FC<Props> = ({ project, index }) => {
       duration={0.5}
     >
       <div
-        className={
-          index !== 1
-            ? styles.featureCard
-            : `${styles.featureCard} ${styles.inverted}`
-        }
+        className={index !== 1 ? styles.featureCard : `${styles.featureCard} ${styles.inverted}`}
       >
         <div className={styles.thumbCont}>
           <div className={styles.imgCont}>
             <Link passHref href={`/${project.slug}`}>
               <div className={styles.overlay}></div>
             </Link>
-            <Image
-              src={project.thumb}
-              alt={project.title}
-              width={450}
-              height={240}
-            />
+            <Image src={project.thumb} alt={project.title} width={450} height={240} />
           </div>
         </div>
         <div className={styles.contentCont}>
@@ -69,7 +60,7 @@ const FeaturedCard: React.FC<Props> = ({ project, index }) => {
         </div>
       </div>
     </ScrollAnimation>
-  );
-};
+  )
+}
 
-export default FeaturedCard;
+export default FeaturedCard

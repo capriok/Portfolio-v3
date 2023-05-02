@@ -1,29 +1,29 @@
-import React, { useState, useEffect } from 'react'
-import { useScrollDirection } from "react-hooks-lab";
+import React, { useState, useEffect } from "react"
+import { useScrollDirection } from "react-hooks-lab"
 
-import Stars from '@components/Stars';
-import Switch from '@components/Switch';
-import Header from '@components/Header'
+import Stars from "@components/Stars"
+import Switch from "@components/Switch"
+import Header from "@components/Header"
 
-import styles from '@styles/components/layouts.module.scss'
+import styles from "@styles/components/layouts.module.scss"
 
 const Layout: React.FC = ({ children }) => {
-  const [dir, setDir] = useState<string>('top')
+  const [dir, setDir] = useState<string>("top")
   const [pos, setPos] = useState<number>(0)
 
   const [theme, setTheme] = useState<ThemeState>({ bright: true, night: false })
 
   const scrollingDir = useScrollDirection()
 
-  const value = v => {
+  const value = (v) => {
     theme.bright
-      ? document.documentElement.style.setProperty('--star-color', `rgba(70, 131, 180, ${v})`)
-      : document.documentElement.style.setProperty('--star-color', `rgba(255, 255, 255, ${v})`)
+      ? document.documentElement.style.setProperty("--star-color", `rgba(70, 131, 180, ${v})`)
+      : document.documentElement.style.setProperty("--star-color", `rgba(255, 255, 255, ${v})`)
   }
   let atHome
   let isMobile
   if (typeof window !== `undefined`) {
-    atHome = window.location.pathname === '/'
+    atHome = window.location.pathname === "/"
     isMobile = window.innerWidth < 550
   }
 
@@ -35,9 +35,9 @@ const Layout: React.FC = ({ children }) => {
   }, [pos, scrollingDir])
 
   useEffect(() => {
-    window.addEventListener('scroll', handleScroll)
+    window.addEventListener("scroll", handleScroll)
     return () => {
-      window.removeEventListener('scroll', handleScroll)
+      window.removeEventListener("scroll", handleScroll)
     }
   }, [])
 

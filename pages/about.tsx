@@ -1,12 +1,12 @@
-import React from "react";
+import React from "react"
 
-import Layout from "@components/layouts/HomeLayout";
-import Contact from "@components/sections/Contact";
-import SEO from "@components/Seo";
+import Layout from "@components/layouts/HomeLayout"
+import Contact from "@components/sections/Contact"
+import SEO from "@components/Seo"
 
-import styles from "@styles/components/about.module.scss";
+import styles from "@styles/components/about.module.scss"
 
-import experience from "../public/json/experience.json";
+import experience from "../public/json/experience.json"
 
 const About: React.FC = () => (
   <Layout>
@@ -16,19 +16,16 @@ const About: React.FC = () => (
       <div className={styles.aboutCont}>
         <h2>Background</h2>
         <p className={styles.info}>
-          My name is Kyle. Im a self taught software engineer based in Arizona.
-          I found my passion for learning computer sciences at the age of 16 and
-          have been programming ever since. Being able to effectively teach
-          myself is something I am most proud of about myself. In 2019, I
-          decided to reinvent my career path and pursue a degree in web
-          programming. Ive dedicated countless hours to learning and expanding
-          this passion. I have developed an avid work ethic and disciplinary
-          skills along my journey in life. Strong creative and critical thinking
-          skills have helped me to excel in areas like web development as well
-          as functional and object oriented programming. In free my time, I
-          immerse myself in learning new programming technologies and how to
-          better myself as a programmer but also find joy with meditaion, music,
-          hiking, and spending time under the sun.
+          My name is Kyle. Im a self taught software engineer based in Arizona. I found my passion
+          for learning computer sciences at the age of 16 and have been programming ever since.
+          Being able to effectively teach myself is something I am most proud of about myself. In
+          2019, I decided to reinvent my career path and pursue a degree in web programming. Ive
+          dedicated countless hours to learning and expanding this passion. I have developed an avid
+          work ethic and disciplinary skills along my journey in life. Strong creative and critical
+          thinking skills have helped me to excel in areas like web development as well as
+          functional and object oriented programming. In free my time, I immerse myself in learning
+          new programming technologies and how to better myself as a programmer but also find joy
+          with meditaion, music, hiking, and spending time under the sun.
         </p>
         <h2>Experience</h2>
         <ul>
@@ -60,6 +57,6 @@ const About: React.FC = () => (
       <Contact />
     </div>
   </Layout>
-);
+)
 
-export default About;
+export default About

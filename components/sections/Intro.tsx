@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 
-import styles from "@styles/components/sections/intro.module.scss";
+import styles from "@styles/components/sections/intro.module.scss"
 
 const Introduction: React.FC = () => (
   <div className={styles.introSection}>
@@ -11,6 +11,6 @@ const Introduction: React.FC = () => (
       <p className={styles.snippet}>Based in Arizona.</p>
     </div>
   </div>
-);
+)
 
-export default Introduction;
+export default Introduction

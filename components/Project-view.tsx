@@ -1,20 +1,20 @@
-import React, { useState } from "react";
-import Link from "next/link";
+import React, { useState } from "react"
+import Link from "next/link"
 
-import FullView from "./Full-view";
-import Carousel from "./Carousel";
+import FullView from "./Full-view"
+import Carousel from "./Carousel"
 
-import { AiFillGithub, AiOutlineHome } from "react-icons/ai";
-import { RiExternalLinkFill } from "react-icons/ri";
+import { AiFillGithub, AiOutlineHome } from "react-icons/ai"
+import { RiExternalLinkFill } from "react-icons/ri"
 
-import styles from "@styles/components/project-view.module.scss";
+import styles from "@styles/components/project-view.module.scss"
 
 interface Props {
-  project: Project;
+  project: Project
 }
 
 const ProjectView: React.FC<Props> = ({ project }) => {
-  const [viewState, setView] = useState<ViewState>({ open: false, image: 0 });
+  const [viewState, setView] = useState<ViewState>({ open: false, image: 0 })
 
   return (
     <div className={styles.projectView}>
@@ -90,7 +90,7 @@ const ProjectView: React.FC<Props> = ({ project }) => {
         </Link>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ProjectView;
+export default ProjectView

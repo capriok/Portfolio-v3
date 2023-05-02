@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import ScrollAnimation from "react-animate-on-scroll";
-import "animate.css/animate.min.css";
+import React, { useState } from "react"
+import ScrollAnimation from "react-animate-on-scroll"
+import "animate.css/animate.min.css"
 
-import styles from "@styles/components/sections/skills.module.scss";
+import styles from "@styles/components/sections/skills.module.scss"
 
 import {
   SiJavascript,
@@ -26,15 +26,15 @@ import {
   SiNetlify,
   SiNpm,
   SiVercel,
-} from "react-icons/si";
-import { DiSass, DiDotnet, DiPostgresql } from "react-icons/di";
-import { RiGatsbyLine, RiHtml5Line, RiCss3Fill } from "react-icons/ri";
-import { VscDatabase } from "react-icons/vsc";
-import { GrMysql } from "react-icons/gr";
-import { FaJava } from "react-icons/fa";
+} from "react-icons/si"
+import { DiSass, DiDotnet, DiPostgresql } from "react-icons/di"
+import { RiGatsbyLine, RiHtml5Line, RiCss3Fill } from "react-icons/ri"
+import { VscDatabase } from "react-icons/vsc"
+import { GrMysql } from "react-icons/gr"
+import { FaJava } from "react-icons/fa"
 
 const Skills: React.FC = () => {
-  const [tab, setTab] = useState<object>({ b: true });
+  const [tab, setTab] = useState<object>({ b: true })
 
   const Tab = ({ children, t }) => (
     <li
@@ -43,7 +43,7 @@ const Skills: React.FC = () => {
     >
       {children}
     </li>
-  );
+  )
 
   const Anim = ({ Icon, name }) => (
     <ScrollAnimation
@@ -60,7 +60,7 @@ const Skills: React.FC = () => {
         <p>{name}</p>
       </li>
     </ScrollAnimation>
-  );
+  )
 
   const Icons = ({ children, t }) => (
     <>
@@ -70,7 +70,7 @@ const Skills: React.FC = () => {
         </section>
       )}
     </>
-  );
+  )
 
   return (
     <div className={styles.skillsSection}>
@@ -138,7 +138,7 @@ const Skills: React.FC = () => {
         </Icons>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills
