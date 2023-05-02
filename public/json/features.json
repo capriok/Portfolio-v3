@@ -3,7 +3,7 @@
     "title": "Sweetie",
     "slug": "sweetie",
     "description": "A personal home dashboard hosted on a Raspberry Pi featuring a calendar, weather stats, lists, and various schedules",
-    "tags": ["Raspberry Pi", "Nextjs", "TRPC", "2022"],
+    "tags": ["Raspberry Pi", "Nextjs", "TRPC", "2023"],
     "source": "https://github.com/capriok/sweetie",
     "demo": "https://sweetie.kylecaprio.dev",
     "thumb": "/images/SWEETIE-SHOWCASE.jpg"
