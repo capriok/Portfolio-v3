@@ -25,7 +25,7 @@ const About: React.FC = () => (
           thinking skills have helped me to excel in areas like web development as well as
           functional and object oriented programming. In free my time, I immerse myself in learning
           new programming technologies and how to better myself as a programmer but also find joy
-          with meditaion, music, hiking, and spending time under the sun.
+          with meditation, music, hiking, and spending time under the sun.
         </p>
         <h2>Experience</h2>
         <ul>

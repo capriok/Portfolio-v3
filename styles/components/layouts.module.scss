@@ -1,29 +1,29 @@
 @import "../index.scss";
 
 .homeLayout {
-	margin: 0 auto;
-	width: 100vw;
-	max-width: $max-width;
-	transition: 0.2s;
+  margin: 0 auto;
+  width: 100vw;
+  max-width: $max-width;
+  transition: 0.2s;
 
-	@include media("<=1080") {
-		transition: 0.2s;
-		padding: 0 15px 0 10px;
-	}
-	transition: 0.3s;
-	@include media("<=800") {
-		width: 100%;
-		padding: 0 10px;
-	}
+  @include media("<=1080") {
+    transition: 0.2s;
+    padding: 0 15px 0 10px;
+  }
+  transition: 0.3s;
+  @include media("<=800") {
+    width: 100%;
+    padding: 0 10px;
+  }
 }
 .homeFooter {
-	margin-top: auto;
-	@include flex;
-	height: 50px;
+  margin-top: auto;
+  @include flex;
+  height: 50px;
 }
 
 .resumeLayout {
-	min-width: 100vw;
-	max-width: 100vw;
-	height: calc(100vh - 100px);
+  min-width: 100vw;
+  max-width: 100vw;
+  height: calc(100vh - 100px);
 }
