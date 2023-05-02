@@ -1,118 +1,119 @@
 @import "../index.scss";
 
 .cardAnimation {
-	flex: 1;
-	@include flex;
-	align-items: stretch;
+  flex: 1;
+  @include flex;
+  align-items: stretch;
 
-	transition: 0.2s;
+  transition: 0.2s;
 
-	min-width: 30%;
-	max-width: 33%;
-	min-height: 250px;
-	@include media("<=800") {
-		min-width: 45%;
-		max-width: 50%;
-		margin-right: 15px;
-	}
-	@include media("<=550") {
-		min-width: 100%;
-		max-width: 100%;
-		margin-right: unset;
-		min-height: 150px;
-	}
+  min-width: 30%;
+  max-width: 33%;
+  min-height: 250px;
+  @include media("<=800") {
+    min-width: 45%;
+    max-width: 50%;
+    margin-right: 15px;
+  }
+  @include media("<=550") {
+    min-width: 100%;
+    max-width: 100%;
+    margin-right: unset;
+    min-height: 150px;
+  }
 
-	.card {
-		user-select: none;
-		@include flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: flex-start;
-		padding: 20px;
+  .card {
+    user-select: none;
+    @include flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
 
-		width: 100%;
-		margin-bottom: 20px;
-		border-radius: 5px;
-		border-left: 5px solid rgb(32, 32, 32);
-		border-bottom: 5px solid rgb(32, 32, 32);
-		transition: 0.2s;
-		@include media("<=550") {
-			padding: 15px;
-		}
-		.head {
-			@include flex;
-			justify-content: space-between;
-			width: 100%;
-			padding-bottom: 20px;
-			transition: 0.2s;
-			@include media("<=550") {
-				padding-bottom: 15px;
-			}
-			svg {
-				font-size: 1.5rem;
-			}
-			.cardTitle {
-				flex: 1;
-				text-align: right;
-			}
-		}
-		.description {
-			cursor: default;
-			flex: 1;
-			padding-bottom: 20px;
-			margin: 0;
-			transition: 0.2s;
-			@include media("<=550") {
-				padding-bottom: 15px;
-			}
-			p {
-				margin: 0;
-			}
-		}
-		.foot {
-			font-size: 1.5rem;
-			width: 100%;
-			align-self: flex-end;
-			text-align: right;
-			transition: 0.2s;
-			a {
-				margin: 0;
-				margin-left: 10px;
-				&:hover {
-					color: steelblue;
-				}
-			}
-		}
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(230, 230, 230);
+    box-shadow: 1px 1px 10px -2px rgb(210, 210, 210);
+    transition: 0.2s;
+    @include media("<=550") {
+      padding: 15px;
+    }
+    .head {
+      @include flex;
+      justify-content: space-between;
+      width: 100%;
+      padding-bottom: 20px;
+      transition: 0.2s;
+      @include media("<=550") {
+        padding-bottom: 15px;
+      }
+      svg {
+        font-size: 1.5rem;
+      }
+      .cardTitle {
+        flex: 1;
+        text-align: right;
+      }
+    }
+    .description {
+      cursor: default;
+      flex: 1;
+      padding-bottom: 20px;
+      margin-left: 0px !important;
+      margin: 0;
+      transition: 0.2s;
+      @include media("<=550") {
+        padding-bottom: 15px;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    .foot {
+      font-size: 1.5rem;
+      width: 100%;
+      align-self: flex-end;
+      text-align: right;
+      transition: 0.2s;
+      a {
+        margin: 0;
+        margin-left: 10px;
+        &:hover {
+          color: steelblue;
+        }
+      }
+    }
 
-		.folderOpen,
-		.folderClosed,
-		.cardTitle {
-			margin: 0;
-			transition: 0.2s;
-		}
-		.folderClosed {
-		}
-		.folderOpen {
-			display: none;
-			padding-left: 1px;
-		}
-		&:hover {
-			background-color: $app-background;
-			.head {
-				transition: 0.2s;
-				.cardTitle {
-					margin-right: 10px;
-				}
-			}
+    .folderOpen,
+    .folderClosed,
+    .cardTitle {
+      margin: 0;
+      transition: 0.2s;
+    }
+    .folderClosed {
+    }
+    .folderOpen {
+      display: none;
+      padding-left: 1px;
+    }
+    &:hover {
+      background-color: $app-background;
+      .head {
+        transition: 0.2s;
+        .cardTitle {
+          margin-right: 10px;
+        }
+      }
 
-			.folderOpen {
-				display: block;
-				margin-left: 0 !important;
-				color: steelblue !important;
-			}
-			.folderClosed {
-				display: none;
-			}
-		}
-	}
+      .folderOpen {
+        display: block;
+        margin-left: 0 !important;
+        color: steelblue !important;
+      }
+      .folderClosed {
+        display: none;
+      }
+    }
+  }
 }

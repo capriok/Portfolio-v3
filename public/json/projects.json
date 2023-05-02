@@ -18,11 +18,7 @@
       "/images/PEPITI-DASHBOARD.jpg",
       "/images/PEPITI-RACES.jpg"
     ],
-    "resources": [
-      "https://pepiti.com",
-      "https://nextjs.org",
-      "https://tailwindcss.com"
-    ]
+    "resources": ["https://pepiti.com", "https://nextjs.org", "https://tailwindcss.com"]
   },
   {
     "title": "CSAR",
@@ -77,44 +73,8 @@
       "/images/SWEETIE-GL.jpg",
       "/images/SWEETIE-CS.jpg"
     ],
-    "resources": [
-      "https://www.typescriptlang.org/docs/home.html",
-      "https://devcenter.heroku.com"
-    ]
+    "resources": ["https://www.typescriptlang.org/docs/home.html", "https://devcenter.heroku.com"]
   },
-  {
-    "title": "Chatter",
-    "slug": "chatter",
-    "description": "Capstone - An automated chat interface that offers help with frequently asked questions, ratings, and feedback",
-    "writing": {
-      "process": "This was the capstone project for my final course before attaining my AS Degree in Web Programming. The task of the project was to create a solution for a company in need of a piece of software based in the web browser. I chose to build this application for the the specific purpose of reducing dining location FAQs but it quickly expanded with features and broadened in scope as the SDLC progressed. The chat lives in the bottom right-hand side of the browser like most other chat interfaces seen on the web.",
-      "processSub": "The success of this project stems from the carefully coded architecture as well as the beautifully implemented animations. During the build phase of the application, I let my creativity run wild like I've never done in previous projects. Framer motion was used for all of the animations and I cannot say enough how intuitive and powerful this library is to work with.",
-      "conclusion": [
-        "Exercised use of high-level animation concepts within Framer-motion",
-        "Built personal best application state management architecture",
-        "Became more comfortable doing application testing with Jest"
-      ]
-    },
-    "stack": ["TypeScript", "React", "Framer-motion", "Storybook", "Netlify"],
-    "tags": ["TypeScript", "React", "2022"],
-    "source": "https://github.com/capriok/capstone",
-    "demo": "https://chatter.kylecaprio.dev",
-    "thumb": "/images/CAPSTONE-SHOWCASE.jpg",
-    "images": [
-      "/images/CAPSTONE-SHOWCASE.jpg",
-      "/images/CAPSTONE-GREETING.jpg",
-      "/images/CAPSTONE-NAV.jpg",
-      "/images/CAPSTONE-FAQ.jpg",
-      "/images/CAPSTONE-RATINGS.jpg",
-      "/images/CAPSTONE-FEEDBACK.jpg"
-    ],
-    "resources": [
-      "https://www.framer.com/docs",
-      "https://storybook.js.org/docs",
-      "https://netlify.com"
-    ]
-  },
-
   {
     "title": "AutoSearch",
     "slug": "autosearch",
@@ -167,9 +127,38 @@
       "/images/WORKPOINTS-MARKETPLACE.jpg",
       "/images/WORKPOINTS-VISUAL.gif"
     ],
+    "resources": ["https://code.visualstudio.com/api", "https://marketplace.visualstudio.com"]
+  },
+  {
+    "title": "Chatter",
+    "slug": "chatter",
+    "description": "Capstone - An automated chat interface that offers help with frequently asked questions, ratings, and feedback",
+    "writing": {
+      "process": "This was the capstone project for my final course before attaining my AS Degree in Web Programming. The task of the project was to create a solution for a company in need of a piece of software based in the web browser. I chose to build this application for the the specific purpose of reducing dining location FAQs but it quickly expanded with features and broadened in scope as the SDLC progressed. The chat lives in the bottom right-hand side of the browser like most other chat interfaces seen on the web.",
+      "processSub": "The success of this project stems from the carefully coded architecture as well as the beautifully implemented animations. During the build phase of the application, I let my creativity run wild like I've never done in previous projects. Framer motion was used for all of the animations and I cannot say enough how intuitive and powerful this library is to work with.",
+      "conclusion": [
+        "Exercised use of high-level animation concepts within Framer-motion",
+        "Built personal best application state management architecture",
+        "Became more comfortable doing application testing with Jest"
+      ]
+    },
+    "stack": ["TypeScript", "React", "Framer-motion", "Storybook", "Netlify"],
+    "tags": ["TypeScript", "React", "2022"],
+    "source": "https://github.com/capriok/capstone",
+    "demo": "https://chatter.kylecaprio.dev",
+    "thumb": "/images/CAPSTONE-SHOWCASE.jpg",
+    "images": [
+      "/images/CAPSTONE-SHOWCASE.jpg",
+      "/images/CAPSTONE-GREETING.jpg",
+      "/images/CAPSTONE-NAV.jpg",
+      "/images/CAPSTONE-FAQ.jpg",
+      "/images/CAPSTONE-RATINGS.jpg",
+      "/images/CAPSTONE-FEEDBACK.jpg"
+    ],
     "resources": [
-      "https://code.visualstudio.com/api",
-      "https://marketplace.visualstudio.com"
+      "https://www.framer.com/docs",
+      "https://storybook.js.org/docs",
+      "https://netlify.com"
     ]
   },
   {
@@ -201,6 +190,36 @@
     "resources": ["https://socket.io", "https://devcenter.heroku.com"]
   },
   {
+    "title": "Draggable-Array",
+    "slug": "draggable-array",
+    "description": "NPM Package - Wrapper Component that utilizes the native browser drag API, giving endless functionality to its children",
+    "writing": {
+      "process": "I had an idea when working on SQLifting, a personal workout application, to make a reusable component with drag and drop functionality to organize elements in an array. I ran into a plethora of issues trying to do this with NPM Packages, so my idea reformed into making a NPM package of my own that anyone could use. After writing the base functionality using the Browser Drag API + Reacts top-level API, it became clear this was going to be a easy to make, powerful utility component. This project came easy to me because I love making things for people to use while learning more about several different concepts and aspects that will make me a better programmer.",
+      "processSub": "",
+      "conclusion": [
+        "Learned Reacts Top-Level API and how to render components with it",
+        "Developed better understanding of what JSX does under the hood",
+        "Progressed TypeScript skills and building professional code bases"
+      ]
+    },
+    "stack": ["TypeScript", "React Top Level API", "Browser Drag API", "NPM", "SASS"],
+    "tags": ["TypeScript", "React", "NPM", "2020"],
+    "source": "https://github.com/capriok/react-draggable-array",
+    "demo": "https://codesandbox.io/s/react-draggable-array-2kdql",
+    "thumb": "/images/DRAGGABLE-NPM.jpg",
+    "images": [
+      "/images/DRAGGABLE-GIT.jpg",
+      "/images/DRAGGABLE-NPM.jpg",
+      "/images/DRAGGABLE-VISUAL.gif"
+    ],
+    "resources": [
+      "https://reactjs.org/docs/react-api.html",
+      "https://www.typescriptlang.org/docs/home.html",
+      "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
+      "https://www.npmjs.com"
+    ]
+  },
+  {
     "title": "Apex Performance",
     "slug": "apex-performance",
     "description": "Local client's professional athletic training facility website showcasing services offered and roster of available personnel",
@@ -225,46 +244,7 @@
       "/images/APEXFT-LAPTOP.jpg",
       "/images/APEXFT-TABLET.jpg"
     ],
-    "resources": [
-      "https://www.typescriptlang.org/docs/home.html",
-      "https://nextjs.org/docs"
-    ]
-  },
-  {
-    "title": "Draggable-Array",
-    "slug": "draggable-array",
-    "description": "NPM Package - Wrapper Component that utilizes the native browser drag API, giving endless functionality to its children",
-    "writing": {
-      "process": "I had an idea when working on SQLifting, a personal workout application, to make a reusable component with drag and drop functionality to organize elements in an array. I ran into a plethora of issues trying to do this with NPM Packages, so my idea reformed into making a NPM package of my own that anyone could use. After writing the base functionality using the Browser Drag API + Reacts top-level API, it became clear this was going to be a easy to make, powerful utility component. This project came easy to me because I love making things for people to use while learning more about several different concepts and aspects that will make me a better programmer.",
-      "processSub": "",
-      "conclusion": [
-        "Learned Reacts Top-Level API and how to render components with it",
-        "Developed better understanding of what JSX does under the hood",
-        "Progressed TypeScript skills and building professional code bases"
-      ]
-    },
-    "stack": [
-      "TypeScript",
-      "React Top Level API",
-      "Browser Drag API",
-      "NPM",
-      "SASS"
-    ],
-    "tags": ["TypeScript", "React", "NPM", "2020"],
-    "source": "https://github.com/capriok/react-draggable-array",
-    "demo": "https://codesandbox.io/s/react-draggable-array-2kdql",
-    "thumb": "/images/DRAGGABLE-NPM.jpg",
-    "images": [
-      "/images/DRAGGABLE-GIT.jpg",
-      "/images/DRAGGABLE-NPM.jpg",
-      "/images/DRAGGABLE-VISUAL.gif"
-    ],
-    "resources": [
-      "https://reactjs.org/docs/react-api.html",
-      "https://www.typescriptlang.org/docs/home.html",
-      "https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API",
-      "https://www.npmjs.com"
-    ]
+    "resources": ["https://www.typescriptlang.org/docs/home.html", "https://nextjs.org/docs"]
   },
   {
     "title": "Godspeed",
@@ -280,15 +260,8 @@
         "Learned Gatsby.js to make the documentation website"
       ]
     },
-    "stack": [
-      "Styled-Components",
-      "React",
-      "JavaScript",
-      "NPM",
-      "Gatsby",
-      "SASS"
-    ],
-    "tags": ["Gatsby", "React", "JavaScript", "NPM", "2020", ""],
+    "stack": ["Styled-Components", "React", "JavaScript", "NPM", "Gatsby", "SASS"],
+    "tags": ["Gatsby", "React", "JavaScript", "NPM", "2020"],
     "source": "https://github.com/capriok/Godspeed",
     "demo": "https://godspeed.kylecaprio.dev",
     "thumb": "/images/GODSPEED-HOME.jpg",
@@ -320,9 +293,7 @@
     "demo": "https://kylecaprio.dev/env-locker",
     "thumb": "/images/NOT-FOUND.jpg",
     "images": ["/images/NOT-FOUND.jpg"],
-    "resources": [
-      "https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0"
-    ]
+    "resources": ["https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0"]
   },
   {
     "title": "Cash Flow",
@@ -495,14 +466,7 @@
         "Management of complex core application and component structure"
       ]
     },
-    "stack": [
-      "React",
-      "JavaScript",
-      "CSS",
-      "Electron",
-      "Express.js",
-      "Youtube Data API v3"
-    ],
+    "stack": ["React", "JavaScript", "CSS", "Electron", "Express.js", "Youtube Data API v3"],
     "tags": ["JavaScript", "React", "Electron", "CSS", "2019"],
     "source": "https://github.com/capriok/MyTube",
     "demo": "https://mytube-music.kylecaprio.dev",

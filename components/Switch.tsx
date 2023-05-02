@@ -37,7 +37,7 @@ const Switch: React.FC<Props> = ({ isMobile, theme, setTheme }) => {
   }
   function nightMode() {
     paintTheme([
-      ["--app-background", "#000"],
+      ["--app-background", "#070707"],
       ["--app-alt-bg", "#161616"],
       ["--app-text", "#fff"],
       ["--star-color", "rgba(255, 255, 255, 0.8)"],
