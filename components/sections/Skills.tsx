@@ -19,7 +19,6 @@ import {
   SiGraphql,
   SiMicrosoftsqlserver,
   SiMongodb,
-  SiMariadbfoundation,
   SiAmazonaws,
   SiMicrosoftazure,
   SiGithub,
@@ -27,10 +26,9 @@ import {
   SiNpm,
   SiVercel,
 } from "react-icons/si"
-import { DiSass, DiDotnet, DiPostgresql } from "react-icons/di"
-import { RiGatsbyLine, RiHtml5Line, RiCss3Fill } from "react-icons/ri"
+import { DiSass, DiPostgresql } from "react-icons/di"
+import { RiHtml5Line, RiCss3Fill } from "react-icons/ri"
 import { VscDatabase } from "react-icons/vsc"
-import { GrMysql } from "react-icons/gr"
 import { FaJava } from "react-icons/fa"
 
 const Skills: React.FC = () => {
@@ -108,7 +106,6 @@ const Skills: React.FC = () => {
         <Icons t="b">
           <Anim Icon={SiReact} name="React" />
           <Anim Icon={SiNextdotjs} name="Next" />
-          <Anim Icon={RiGatsbyLine} name="Gatsby" />
           <Anim Icon={RiHtml5Line} name="HTML" />
           <Anim Icon={RiCss3Fill} name="CSS" />
           <Anim Icon={DiSass} name="SASS" />
