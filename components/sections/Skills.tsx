@@ -1,6 +1,4 @@
 import React, { useState } from "react"
-import ScrollAnimation from "react-animate-on-scroll"
-import "animate.css/animate.min.css"
 
 import styles from "@styles/components/sections/skills.module.scss"
 
@@ -43,21 +41,13 @@ const Skills: React.FC = () => {
     </li>
   )
 
-  const Anim = ({ Icon, name }) => (
-    <ScrollAnimation
-      className={styles.projectAnim}
-      initiallyVisible={true}
-      animateIn="pulse"
-      animateOnce={true}
-      duration={0.5}
-    >
-      <li>
-        <p>
-          <Icon />
-        </p>
-        <p>{name}</p>
-      </li>
-    </ScrollAnimation>
+  const Skill = ({ Icon, name }) => (
+    <li>
+      <p>
+        <Icon />
+      </p>
+      <p>{name}</p>
+    </li>
   )
 
   const Icons = ({ children, t }) => (
@@ -97,41 +87,41 @@ const Skills: React.FC = () => {
           </Tab>
         </ul>
         <Icons t="a">
-          <Anim Icon={SiJavascript} name="JavaScript" />
-          <Anim Icon={SiTypescript} name="TypeScript" />
-          <Anim Icon={SiCsharp} name="C Sharp" />
-          <Anim Icon={SiPython} name="Python" />
-          <Anim Icon={FaJava} name="Java" />
+          <Skill Icon={SiJavascript} name="JavaScript" />
+          <Skill Icon={SiTypescript} name="TypeScript" />
+          <Skill Icon={SiCsharp} name="C Sharp" />
+          <Skill Icon={SiPython} name="Python" />
+          <Skill Icon={FaJava} name="Java" />
         </Icons>
         <Icons t="b">
-          <Anim Icon={SiReact} name="React" />
-          <Anim Icon={SiNextdotjs} name="Next" />
-          <Anim Icon={RiHtml5Line} name="HTML" />
-          <Anim Icon={RiCss3Fill} name="CSS" />
-          <Anim Icon={DiSass} name="SASS" />
+          <Skill Icon={SiReact} name="React" />
+          <Skill Icon={SiNextdotjs} name="Next" />
+          <Skill Icon={RiHtml5Line} name="HTML" />
+          <Skill Icon={RiCss3Fill} name="CSS" />
+          <Skill Icon={DiSass} name="SASS" />
         </Icons>
 
         <Icons t="c">
-          <Anim Icon={SiNodedotjs} name="Express.js" />
-          <Anim Icon={SiGraphql} name="GraphQL" />
-          <Anim Icon={SiTrpc} name="TRPC" />
-          <Anim Icon={SiPrisma} name="Prisma" />
-          <Anim Icon={SiSocketdotio} name="Socket.io" />
+          <Skill Icon={SiNodedotjs} name="Express.js" />
+          <Skill Icon={SiGraphql} name="GraphQL" />
+          <Skill Icon={SiTrpc} name="TRPC" />
+          <Skill Icon={SiPrisma} name="Prisma" />
+          <Skill Icon={SiSocketdotio} name="Socket.io" />
         </Icons>
         <Icons t="d">
-          <Anim Icon={DiPostgresql} name="PostgreSQL" />
-          <Anim Icon={SiMysql} name="MySQL" />
-          <Anim Icon={SiMicrosoftsqlserver} name="SQL Server" />
-          <Anim Icon={SiMongodb} name="Mongo DB" />
-          <Anim Icon={VscDatabase} name="NoSQL" />
+          <Skill Icon={DiPostgresql} name="PostgreSQL" />
+          <Skill Icon={SiMysql} name="MySQL" />
+          <Skill Icon={SiMicrosoftsqlserver} name="SQL Server" />
+          <Skill Icon={SiMongodb} name="Mongo DB" />
+          <Skill Icon={VscDatabase} name="NoSQL" />
         </Icons>
         <Icons t="e">
-          <Anim Icon={SiAmazonaws} name="AWS" />
-          <Anim Icon={SiMicrosoftazure} name="Azure" />
-          <Anim Icon={SiVercel} name="Vercel" />
-          <Anim Icon={SiNetlify} name="Netlify" />
-          <Anim Icon={SiGithub} name="Github" />
-          <Anim Icon={SiNpm} name="NPM" />
+          <Skill Icon={SiAmazonaws} name="AWS" />
+          <Skill Icon={SiMicrosoftazure} name="Azure" />
+          <Skill Icon={SiVercel} name="Vercel" />
+          <Skill Icon={SiNetlify} name="Netlify" />
+          <Skill Icon={SiGithub} name="Github" />
+          <Skill Icon={SiNpm} name="NPM" />
         </Icons>
       </div>
     </div>

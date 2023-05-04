@@ -13,9 +13,6 @@ interface Props {
 }
 
 const Switch: React.FC<Props> = ({ isMobile, theme, setTheme }) => {
-  const BRIGHT = { bright: true, night: false }
-  const NIGHT = { bright: false, night: true }
-
   function set(mode: ThemeState) {
     setTheme(mode)
     localStorage.setItem("theme-settings", JSON.stringify(mode))
@@ -27,30 +24,13 @@ const Switch: React.FC<Props> = ({ isMobile, theme, setTheme }) => {
     })
   }
 
-  function brightMode() {
-    paintTheme([
-      ["--app-background", "#fff"],
-      ["--app-alt-bg", "#ebebeb"],
-      ["--app-text", "#000"],
-      ["--star-color", "#4683b4cc"],
-    ])
-  }
-  function nightMode() {
-    paintTheme([
-      ["--app-background", "#070707"],
-      ["--app-alt-bg", "#161616"],
-      ["--app-text", "#fff"],
-      ["--star-color", "rgba(255, 255, 255, 0.8)"],
-    ])
-  }
-
   useEffect(() => {
     const TS = localStorage.getItem("theme-settings")
     if (TS) {
       isEqual(theme, JSON.parse(TS))
         ? theme.bright
-          ? brightMode()
-          : nightMode()
+          ? paintTheme(modes.bright)
+          : paintTheme(modes.night)
         : setTheme(JSON.parse(TS))
     }
   }, [theme])
@@ -60,12 +40,12 @@ const Switch: React.FC<Props> = ({ isMobile, theme, setTheme }) => {
       {!isMobile && (
         <div className={styles.switch}>
           {theme.bright && (
-            <p onClick={() => set(NIGHT)}>
+            <p onClick={() => set({ bright: true, night: false })}>
               <IoMdPartlySunny />
             </p>
           )}
           {theme.night && (
-            <p onClick={() => set(BRIGHT)}>
+            <p onClick={() => set({ bright: false, night: true })}>
               <IoMdCloudyNight />
             </p>
           )}
@@ -76,3 +56,18 @@ const Switch: React.FC<Props> = ({ isMobile, theme, setTheme }) => {
 }
 
 export default Switch
+
+const modes = {
+  bright: [
+    ["--app-background", "#fff"],
+    ["--app-alt-bg", "#ebebeb"],
+    ["--app-text", "#000"],
+    ["--star-color", "#4683b4cc"],
+  ],
+  night: [
+    ["--app-background", "#070707"],
+    ["--app-alt-bg", "#161616"],
+    ["--app-text", "#fff"],
+    ["--star-color", "rgba(255, 255, 255, 0.8)"],
+  ],
+}
